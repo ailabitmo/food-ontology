@@ -16,8 +16,152 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
     <owl:Ontology rdf:about="http://purl.org/food">
+        <rdfs:label xml:lang="en">A Food Ontology</rdfs:label>
         <owl:versionIRI rdf:resource="http://purl.org/food/1.0.0"/>
+        <owl:imports rdf:resource="http://purl.org/goodrelations/v1"/>
     </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/food#carbohydratesPer100g -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/food#carbohydratesPer100g">
+        <rdfs:domain rdf:resource="http://purl.org/food#Food"/>
+        <rdfs:range rdf:resource="http://purl.org/goodrelations/v1#QuantitativeValueFloat"/>
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/goodrelations/v1#quantitativeProductOrServiceProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/food#containsIngredient -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/food#containsIngredient">
+        <rdfs:domain rdf:resource="http://purl.org/food#Food"/>
+        <rdfs:range rdf:resource="http://purl.org/food#Ingredient"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/food#energyPer100g -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/food#energyPer100g">
+        <rdfs:domain rdf:resource="http://purl.org/food#Food"/>
+        <rdfs:range rdf:resource="http://purl.org/goodrelations/v1#QuantitativeValueFloat"/>
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/goodrelations/v1#quantitativeProductOrServiceProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/food#fatPer100g -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/food#fatPer100g">
+        <rdfs:domain rdf:resource="http://purl.org/food#Food"/>
+        <rdfs:range rdf:resource="http://purl.org/goodrelations/v1#QuantitativeValueFloat"/>
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/goodrelations/v1#quantitativeProductOrServiceProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/food#proteinsPer100g -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/food#proteinsPer100g">
+        <rdfs:domain rdf:resource="http://purl.org/food#Food"/>
+        <rdfs:range rdf:resource="http://purl.org/goodrelations/v1#QuantitativeValueFloat"/>
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/goodrelations/v1#quantitativeProductOrServiceProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/food#Food -->
+
+    <owl:Class rdf:about="http://purl.org/food#Food">
+        <rdfs:label xml:lang="en">Food</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/goodrelations/v1#ProductOrService"/>
+        <rdfs:seeAlso rdf:datatype="&xsd;anyURI">http://en.wikipedia.org/wiki/Food</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/food#FoodAdditive -->
+
+    <owl:Class rdf:about="http://purl.org/food#FoodAdditive">
+        <rdfs:label xml:lang="en">Food additive</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/food#Ingredient"/>
+        <rdfs:seeAlso rdf:datatype="&xsd;anyURI">http://en.wikipedia.org/wiki/Food_additive</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/food#Ingredient -->
+
+    <owl:Class rdf:about="http://purl.org/food#Ingredient">
+        <rdfs:label xml:lang="en">Ingredient</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="&xsd;anyURI">http://en.wikipedia.org/wiki/Ingredient</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointProperties"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.org/food#carbohydratesPer100g"/>
+            <rdf:Description rdf:about="http://purl.org/food#energyPer100g"/>
+            <rdf:Description rdf:about="http://purl.org/food#fatPer100g"/>
+            <rdf:Description rdf:about="http://purl.org/food#proteinsPer100g"/>
+        </owl:members>
+    </rdf:Description>
 </rdf:RDF>
 
 
