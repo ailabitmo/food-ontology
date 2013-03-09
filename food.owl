@@ -16,7 +16,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
     <owl:Ontology rdf:about="http://purl.org/foodontology">
-        <rdfs:label xml:lang="en">A Food Ontology</rdfs:label>
+        <rdfs:label xml:lang="en">Food Ontology</rdfs:label>
         <owl:versionIRI rdf:resource="http://purl.org/foodontology/1.0.0"/>
         <owl:imports rdf:resource="http://purl.org/goodrelations/v1"/>
     </owl:Ontology>
@@ -116,11 +116,55 @@
     
 
 
+    <!-- http://purl.org/foodontology#carbohydratesPer100gAsDouble -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/foodontology#carbohydratesPer100gAsDouble">
+        <rdfs:domain rdf:resource="http://purl.org/foodontology#Food"/>
+        <rdfs:seeAlso rdf:resource="http://purl.org/foodontology#carbohydratesPer100g"/>
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/goodrelations/v1#datatypeProductOrServiceProperty"/>
+        <rdfs:range rdf:resource="&xsd;double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/foodontology#energyPer100gAsDouble -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/foodontology#energyPer100gAsDouble">
+        <rdfs:domain rdf:resource="http://purl.org/foodontology#Food"/>
+        <rdfs:seeAlso rdf:resource="http://purl.org/foodontology#energyPer100g"/>
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/goodrelations/v1#datatypeProductOrServiceProperty"/>
+        <rdfs:range rdf:resource="&xsd;double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/foodontology#fatPer100gAsDouble -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/foodontology#fatPer100gAsDouble">
+        <rdfs:domain rdf:resource="http://purl.org/foodontology#Food"/>
+        <rdfs:seeAlso rdf:resource="http://purl.org/foodontology#fatPer100g"/>
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/goodrelations/v1#datatypeProductOrServiceProperty"/>
+        <rdfs:range rdf:resource="&xsd;double"/>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://purl.org/foodontology#ingredientsListAsText -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/foodontology#ingredientsListAsText">
         <rdfs:domain rdf:resource="http://purl.org/foodontology#Food"/>
         <rdfs:range rdf:resource="&rdfs;Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/foodontology#proteinsPer100gAsDouble -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/foodontology#proteinsPer100gAsDouble">
+        <rdfs:domain rdf:resource="http://purl.org/foodontology#Food"/>
+        <rdfs:seeAlso rdf:resource="http://purl.org/foodontology#proteinsPer100g"/>
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/goodrelations/v1#datatypeProductOrServiceProperty"/>
+        <rdfs:range rdf:resource="&xsd;double"/>
     </owl:DatatypeProperty>
     
 
