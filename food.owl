@@ -184,6 +184,7 @@
 
     <owl:Class rdf:about="http://purl.org/foodontology#Food">
         <rdfs:label xml:lang="en">Food</rdfs:label>
+        <rdfs:label xml:lang="ru">Продукт пищевой</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.org/goodrelations/v1#ProductOrService"/>
         <rdfs:seeAlso rdf:datatype="&xsd;anyURI">http://en.wikipedia.org/wiki/Food</rdfs:seeAlso>
     </owl:Class>
@@ -194,6 +195,7 @@
 
     <owl:Class rdf:about="http://purl.org/foodontology#FoodAdditive">
         <rdfs:label xml:lang="en">Food additive</rdfs:label>
+        <rdfs:label xml:lang="ru">Пищевая добавка</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#Ingredient"/>
         <rdfs:seeAlso rdf:datatype="&xsd;anyURI">http://en.wikipedia.org/wiki/Food_additive</rdfs:seeAlso>
     </owl:Class>
@@ -204,6 +206,7 @@
 
     <owl:Class rdf:about="http://purl.org/foodontology#Ingredient">
         <rdfs:label xml:lang="en">Ingredient</rdfs:label>
+        <rdfs:label xml:lang="ru">Ингредиент</rdfs:label>
         <rdfs:seeAlso rdf:datatype="&xsd;anyURI">http://en.wikipedia.org/wiki/Ingredient</rdfs:seeAlso>
     </owl:Class>
     
@@ -217,6 +220,15 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointProperties"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.org/foodontology#carbohydratesPer100gAsDouble"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#energyPer100gAsDouble"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#fatPer100gAsDouble"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#proteinsPer100gAsDouble"/>
+        </owl:members>
+    </rdf:Description>
     <rdf:Description>
         <rdf:type rdf:resource="&owl;AllDisjointProperties"/>
         <owl:members rdf:parseType="Collection">
