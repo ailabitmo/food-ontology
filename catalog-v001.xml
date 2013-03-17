@@ -2,6 +2,6 @@
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
     <uri id="Imports Wizard Entry" name="http://purl.org/goodrelations/v1" uri="http://purl.org/goodrelations/v1#"/>
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1361697766274" name="http://purl.org/food" uri="food.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1363524851041" name="http://purl.org/food" uri="food.owl"/>
     </group>
 </catalog>

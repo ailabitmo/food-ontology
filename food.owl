@@ -105,6 +105,12 @@
     
 
 
+    <!-- http://purl.org/goodrelations/v1#quantitativeProductOrServiceProperty -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/goodrelations/v1#quantitativeProductOrServiceProperty"/>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -169,6 +175,12 @@
     
 
 
+    <!-- http://purl.org/goodrelations/v1#datatypeProductOrServiceProperty -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/goodrelations/v1#datatypeProductOrServiceProperty"/>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -191,7 +203,11 @@
                     <rdf:Description rdf:about="http://purl.org/foodontology#E126"/>
                     <rdf:Description rdf:about="http://purl.org/foodontology#E309"/>
                     <rdf:Description rdf:about="http://purl.org/foodontology#E125"/>
+                    <rdf:Description rdf:about="http://purl.org/foodontology#E446"/>
+                    <rdf:Description rdf:about="http://purl.org/foodontology#E445"/>
                     <rdf:Description rdf:about="http://purl.org/foodontology#E129"/>
+                    <rdf:Description rdf:about="http://purl.org/foodontology#E407a"/>
+                    <rdf:Description rdf:about="http://purl.org/foodontology#E444"/>
                     <rdf:Description rdf:about="http://purl.org/foodontology#E304"/>
                     <rdf:Description rdf:about="http://purl.org/foodontology#E303"/>
                     <rdf:Description rdf:about="http://purl.org/foodontology#E302"/>
@@ -211,11 +227,15 @@
                     <rdf:Description rdf:about="http://purl.org/foodontology#E220"/>
                     <rdf:Description rdf:about="http://purl.org/foodontology#E221"/>
                     <rdf:Description rdf:about="http://purl.org/foodontology#E300"/>
+                    <rdf:Description rdf:about="http://purl.org/foodontology#E442"/>
                     <rdf:Description rdf:about="http://purl.org/foodontology#E120"/>
+                    <rdf:Description rdf:about="http://purl.org/foodontology#E440"/>
+                    <rdf:Description rdf:about="http://purl.org/foodontology#E441"/>
                     <rdf:Description rdf:about="http://purl.org/foodontology#E123"/>
                     <rdf:Description rdf:about="http://purl.org/foodontology#E124"/>
                     <rdf:Description rdf:about="http://purl.org/foodontology#E121"/>
                     <rdf:Description rdf:about="http://purl.org/foodontology#E122"/>
+                    <rdf:Description rdf:about="http://purl.org/foodontology#E459"/>
                     <rdf:Description rdf:about="http://purl.org/foodontology#E313"/>
                     <rdf:Description rdf:about="http://purl.org/foodontology#E312"/>
                     <rdf:Description rdf:about="http://purl.org/foodontology#E239"/>
@@ -236,15 +256,24 @@
                     <rdf:Description rdf:about="http://purl.org/foodontology#E310"/>
                     <rdf:Description rdf:about="http://purl.org/foodontology#E311"/>
                     <rdf:Description rdf:about="http://purl.org/foodontology#E230"/>
+                    <rdf:Description rdf:about="http://purl.org/foodontology#E451"/>
+                    <rdf:Description rdf:about="http://purl.org/foodontology#E452"/>
                     <rdf:Description rdf:about="http://purl.org/foodontology#E130"/>
                     <rdf:Description rdf:about="http://purl.org/foodontology#E131"/>
                     <rdf:Description rdf:about="http://purl.org/foodontology#E132"/>
                     <rdf:Description rdf:about="http://purl.org/foodontology#E133"/>
+                    <rdf:Description rdf:about="http://purl.org/foodontology#E450"/>
+                    <rdf:Description rdf:about="http://purl.org/foodontology#E425"/>
+                    <rdf:Description rdf:about="http://purl.org/foodontology#E424"/>
                     <rdf:Description rdf:about="http://purl.org/foodontology#E107"/>
+                    <rdf:Description rdf:about="http://purl.org/foodontology#E422"/>
                     <rdf:Description rdf:about="http://purl.org/foodontology#E106"/>
+                    <rdf:Description rdf:about="http://purl.org/foodontology#E429"/>
                     <rdf:Description rdf:about="http://purl.org/foodontology#E105"/>
                     <rdf:Description rdf:about="http://purl.org/foodontology#E104"/>
+                    <rdf:Description rdf:about="http://purl.org/foodontology#E427"/>
                     <rdf:Description rdf:about="http://purl.org/foodontology#E103"/>
+                    <rdf:Description rdf:about="http://purl.org/foodontology#E426"/>
                     <rdf:Description rdf:about="http://purl.org/foodontology#E249"/>
                     <rdf:Description rdf:about="http://purl.org/foodontology#E329"/>
                     <rdf:Description rdf:about="http://purl.org/foodontology#E328"/>
@@ -265,7 +294,13 @@
                     <rdf:Description rdf:about="http://purl.org/foodontology#E161g"/>
                     <rdf:Description rdf:about="http://purl.org/foodontology#E100"/>
                     <rdf:Description rdf:about="http://purl.org/foodontology#E161f"/>
+                    <rdf:Description rdf:about="http://purl.org/foodontology#E420"/>
+                    <rdf:Description rdf:about="http://purl.org/foodontology#E421"/>
                     <rdf:Description rdf:about="http://purl.org/foodontology#E161j"/>
+                    <rdf:Description rdf:about="http://purl.org/foodontology#E434"/>
+                    <rdf:Description rdf:about="http://purl.org/foodontology#E433"/>
+                    <rdf:Description rdf:about="http://purl.org/foodontology#E436"/>
+                    <rdf:Description rdf:about="http://purl.org/foodontology#E435"/>
                     <rdf:Description rdf:about="http://purl.org/foodontology#E339"/>
                     <rdf:Description rdf:about="http://purl.org/foodontology#E338"/>
                     <rdf:Description rdf:about="http://purl.org/foodontology#E335"/>
@@ -281,10 +316,23 @@
                     <rdf:Description rdf:about="http://purl.org/foodontology#E252"/>
                     <rdf:Description rdf:about="http://purl.org/foodontology#E110"/>
                     <rdf:Description rdf:about="http://purl.org/foodontology#E111"/>
+                    <rdf:Description rdf:about="http://purl.org/foodontology#E430"/>
+                    <rdf:Description rdf:about="http://purl.org/foodontology#E431"/>
+                    <rdf:Description rdf:about="http://purl.org/foodontology#E432"/>
+                    <rdf:Description rdf:about="http://purl.org/foodontology#E408"/>
+                    <rdf:Description rdf:about="http://purl.org/foodontology#E409"/>
                     <rdf:Description rdf:about="http://purl.org/foodontology#E160d"/>
+                    <rdf:Description rdf:about="http://purl.org/foodontology#E406"/>
                     <rdf:Description rdf:about="http://purl.org/foodontology#E160c"/>
+                    <rdf:Description rdf:about="http://purl.org/foodontology#E407"/>
                     <rdf:Description rdf:about="http://purl.org/foodontology#E160b"/>
+                    <rdf:Description rdf:about="http://purl.org/foodontology#E404"/>
                     <rdf:Description rdf:about="http://purl.org/foodontology#E160a"/>
+                    <rdf:Description rdf:about="http://purl.org/foodontology#E405"/>
+                    <rdf:Description rdf:about="http://purl.org/foodontology#E402"/>
+                    <rdf:Description rdf:about="http://purl.org/foodontology#E403"/>
+                    <rdf:Description rdf:about="http://purl.org/foodontology#E400"/>
+                    <rdf:Description rdf:about="http://purl.org/foodontology#E401"/>
                     <rdf:Description rdf:about="http://purl.org/foodontology#E164"/>
                     <rdf:Description rdf:about="http://purl.org/foodontology#E163"/>
                     <rdf:Description rdf:about="http://purl.org/foodontology#E162"/>
@@ -299,20 +347,37 @@
                     <rdf:Description rdf:about="http://purl.org/foodontology#E150b"/>
                     <rdf:Description rdf:about="http://purl.org/foodontology#E260"/>
                     <rdf:Description rdf:about="http://purl.org/foodontology#E150c"/>
+                    <rdf:Description rdf:about="http://purl.org/foodontology#E419"/>
                     <rdf:Description rdf:about="http://purl.org/foodontology#E161c"/>
+                    <rdf:Description rdf:about="http://purl.org/foodontology#E415"/>
                     <rdf:Description rdf:about="http://purl.org/foodontology#E161b"/>
+                    <rdf:Description rdf:about="http://purl.org/foodontology#E416"/>
                     <rdf:Description rdf:about="http://purl.org/foodontology#E161e"/>
+                    <rdf:Description rdf:about="http://purl.org/foodontology#E417"/>
                     <rdf:Description rdf:about="http://purl.org/foodontology#E161d"/>
+                    <rdf:Description rdf:about="http://purl.org/foodontology#E418"/>
+                    <rdf:Description rdf:about="http://purl.org/foodontology#E411"/>
+                    <rdf:Description rdf:about="http://purl.org/foodontology#E412"/>
                     <rdf:Description rdf:about="http://purl.org/foodontology#E161a"/>
+                    <rdf:Description rdf:about="http://purl.org/foodontology#E413"/>
+                    <rdf:Description rdf:about="http://purl.org/foodontology#E414"/>
                     <rdf:Description rdf:about="http://purl.org/foodontology#E173"/>
                     <rdf:Description rdf:about="http://purl.org/foodontology#E172"/>
                     <rdf:Description rdf:about="http://purl.org/foodontology#E270"/>
                     <rdf:Description rdf:about="http://purl.org/foodontology#E175"/>
+                    <rdf:Description rdf:about="http://purl.org/foodontology#E410"/>
                     <rdf:Description rdf:about="http://purl.org/foodontology#E174"/>
                     <rdf:Description rdf:about="http://purl.org/foodontology#E160e"/>
                     <rdf:Description rdf:about="http://purl.org/foodontology#E160f"/>
+                    <rdf:Description rdf:about="http://purl.org/foodontology#E472d"/>
+                    <rdf:Description rdf:about="http://purl.org/foodontology#E472c"/>
+                    <rdf:Description rdf:about="http://purl.org/foodontology#E472b"/>
+                    <rdf:Description rdf:about="http://purl.org/foodontology#E472a"/>
+                    <rdf:Description rdf:about="http://purl.org/foodontology#E472g"/>
                     <rdf:Description rdf:about="http://purl.org/foodontology#E171"/>
+                    <rdf:Description rdf:about="http://purl.org/foodontology#E472f"/>
                     <rdf:Description rdf:about="http://purl.org/foodontology#E170"/>
+                    <rdf:Description rdf:about="http://purl.org/foodontology#E472e"/>
                     <rdf:Description rdf:about="http://purl.org/foodontology#E143"/>
                     <rdf:Description rdf:about="http://purl.org/foodontology#E281"/>
                     <rdf:Description rdf:about="http://purl.org/foodontology#E142"/>
@@ -330,7 +395,9 @@
                     <rdf:Description rdf:about="http://purl.org/foodontology#E153"/>
                     <rdf:Description rdf:about="http://purl.org/foodontology#E152"/>
                     <rdf:Description rdf:about="http://purl.org/foodontology#E296"/>
+                    <rdf:Description rdf:about="http://purl.org/foodontology#E470b"/>
                     <rdf:Description rdf:about="http://purl.org/foodontology#E297"/>
+                    <rdf:Description rdf:about="http://purl.org/foodontology#E470a"/>
                     <rdf:Description rdf:about="http://purl.org/foodontology#E399"/>
                     <rdf:Description rdf:about="http://purl.org/foodontology#E392"/>
                     <rdf:Description rdf:about="http://purl.org/foodontology#E390"/>
@@ -347,15 +414,33 @@
                     <rdf:Description rdf:about="http://purl.org/foodontology#E180"/>
                     <rdf:Description rdf:about="http://purl.org/foodontology#E181"/>
                     <rdf:Description rdf:about="http://purl.org/foodontology#E182"/>
+                    <rdf:Description rdf:about="http://purl.org/foodontology#E494"/>
+                    <rdf:Description rdf:about="http://purl.org/foodontology#E479b"/>
+                    <rdf:Description rdf:about="http://purl.org/foodontology#E493"/>
+                    <rdf:Description rdf:about="http://purl.org/foodontology#E492"/>
+                    <rdf:Description rdf:about="http://purl.org/foodontology#E491"/>
+                    <rdf:Description rdf:about="http://purl.org/foodontology#E498"/>
+                    <rdf:Description rdf:about="http://purl.org/foodontology#E497"/>
+                    <rdf:Description rdf:about="http://purl.org/foodontology#E496"/>
+                    <rdf:Description rdf:about="http://purl.org/foodontology#E495"/>
                     <rdf:Description rdf:about="http://purl.org/foodontology#E355"/>
                     <rdf:Description rdf:about="http://purl.org/foodontology#E354"/>
                     <rdf:Description rdf:about="http://purl.org/foodontology#E353"/>
                     <rdf:Description rdf:about="http://purl.org/foodontology#E352"/>
                     <rdf:Description rdf:about="http://purl.org/foodontology#E351"/>
+                    <rdf:Description rdf:about="http://purl.org/foodontology#E490"/>
                     <rdf:Description rdf:about="http://purl.org/foodontology#E350"/>
                     <rdf:Description rdf:about="http://purl.org/foodontology#E359"/>
                     <rdf:Description rdf:about="http://purl.org/foodontology#E356"/>
                     <rdf:Description rdf:about="http://purl.org/foodontology#E357"/>
+                    <rdf:Description rdf:about="http://purl.org/foodontology#E481"/>
+                    <rdf:Description rdf:about="http://purl.org/foodontology#E480"/>
+                    <rdf:Description rdf:about="http://purl.org/foodontology#E483"/>
+                    <rdf:Description rdf:about="http://purl.org/foodontology#E482"/>
+                    <rdf:Description rdf:about="http://purl.org/foodontology#E485"/>
+                    <rdf:Description rdf:about="http://purl.org/foodontology#E484"/>
+                    <rdf:Description rdf:about="http://purl.org/foodontology#E487"/>
+                    <rdf:Description rdf:about="http://purl.org/foodontology#E486"/>
                     <rdf:Description rdf:about="http://purl.org/foodontology#E342"/>
                     <rdf:Description rdf:about="http://purl.org/foodontology#E341"/>
                     <rdf:Description rdf:about="http://purl.org/foodontology#E344"/>
@@ -363,6 +448,13 @@
                     <rdf:Description rdf:about="http://purl.org/foodontology#E340"/>
                     <rdf:Description rdf:about="http://purl.org/foodontology#E349"/>
                     <rdf:Description rdf:about="http://purl.org/foodontology#E345"/>
+                    <rdf:Description rdf:about="http://purl.org/foodontology#E488"/>
+                    <rdf:Description rdf:about="http://purl.org/foodontology#E489"/>
+                    <rdf:Description rdf:about="http://purl.org/foodontology#E476"/>
+                    <rdf:Description rdf:about="http://purl.org/foodontology#E475"/>
+                    <rdf:Description rdf:about="http://purl.org/foodontology#E474"/>
+                    <rdf:Description rdf:about="http://purl.org/foodontology#E473"/>
+                    <rdf:Description rdf:about="http://purl.org/foodontology#E471"/>
                     <rdf:Description rdf:about="http://purl.org/foodontology#E212"/>
                     <rdf:Description rdf:about="http://purl.org/foodontology#E211"/>
                     <rdf:Description rdf:about="http://purl.org/foodontology#E210"/>
@@ -374,6 +466,14 @@
                     <rdf:Description rdf:about="http://purl.org/foodontology#E216"/>
                     <rdf:Description rdf:about="http://purl.org/foodontology#E213"/>
                     <rdf:Description rdf:about="http://purl.org/foodontology#E214"/>
+                    <rdf:Description rdf:about="http://purl.org/foodontology#E477"/>
+                    <rdf:Description rdf:about="http://purl.org/foodontology#E478"/>
+                    <rdf:Description rdf:about="http://purl.org/foodontology#E463"/>
+                    <rdf:Description rdf:about="http://purl.org/foodontology#E462"/>
+                    <rdf:Description rdf:about="http://purl.org/foodontology#E465"/>
+                    <rdf:Description rdf:about="http://purl.org/foodontology#E464"/>
+                    <rdf:Description rdf:about="http://purl.org/foodontology#E461"/>
+                    <rdf:Description rdf:about="http://purl.org/foodontology#E460"/>
                     <rdf:Description rdf:about="http://purl.org/foodontology#E201"/>
                     <rdf:Description rdf:about="http://purl.org/foodontology#E200"/>
                     <rdf:Description rdf:about="http://purl.org/foodontology#E363"/>
@@ -384,6 +484,10 @@
                     <rdf:Description rdf:about="http://purl.org/foodontology#E209"/>
                     <rdf:Description rdf:about="http://purl.org/foodontology#E202"/>
                     <rdf:Description rdf:about="http://purl.org/foodontology#E203"/>
+                    <rdf:Description rdf:about="http://purl.org/foodontology#E466"/>
+                    <rdf:Description rdf:about="http://purl.org/foodontology#E467"/>
+                    <rdf:Description rdf:about="http://purl.org/foodontology#E468"/>
+                    <rdf:Description rdf:about="http://purl.org/foodontology#E469"/>
                 </owl:oneOf>
             </owl:Class>
         </owl:equivalentClass>
@@ -422,6 +526,18 @@
         <rdfs:label xml:lang="ru">Ингредиент</rdfs:label>
         <rdfs:seeAlso rdf:datatype="&xsd;anyURI">http://en.wikipedia.org/wiki/Ingredient</rdfs:seeAlso>
     </owl:Class>
+    
+
+
+    <!-- http://purl.org/goodrelations/v1#ProductOrService -->
+
+    <owl:Class rdf:about="http://purl.org/goodrelations/v1#ProductOrService"/>
+    
+
+
+    <!-- http://purl.org/goodrelations/v1#QuantitativeValueFloat -->
+
+    <owl:Class rdf:about="http://purl.org/goodrelations/v1#QuantitativeValueFloat"/>
     
 
 
@@ -2107,6 +2223,742 @@
     
 
 
+    <!-- http://purl.org/foodontology#E400 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/foodontology#E400">
+        <rdf:type rdf:resource="http://purl.org/foodontology#E-additive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/foodontology#E401 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/foodontology#E401">
+        <rdf:type rdf:resource="http://purl.org/foodontology#E-additive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/foodontology#E402 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/foodontology#E402">
+        <rdf:type rdf:resource="http://purl.org/foodontology#E-additive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/foodontology#E403 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/foodontology#E403">
+        <rdf:type rdf:resource="http://purl.org/foodontology#E-additive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/foodontology#E404 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/foodontology#E404">
+        <rdf:type rdf:resource="http://purl.org/foodontology#E-additive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/foodontology#E405 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/foodontology#E405">
+        <rdf:type rdf:resource="http://purl.org/foodontology#E-additive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/foodontology#E406 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/foodontology#E406">
+        <rdf:type rdf:resource="http://purl.org/foodontology#E-additive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/foodontology#E407 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/foodontology#E407">
+        <rdf:type rdf:resource="http://purl.org/foodontology#E-additive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/foodontology#E407a -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/foodontology#E407a">
+        <rdf:type rdf:resource="http://purl.org/foodontology#E-additive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/foodontology#E408 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/foodontology#E408">
+        <rdf:type rdf:resource="http://purl.org/foodontology#E-additive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/foodontology#E409 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/foodontology#E409">
+        <rdf:type rdf:resource="http://purl.org/foodontology#E-additive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/foodontology#E410 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/foodontology#E410">
+        <rdf:type rdf:resource="http://purl.org/foodontology#E-additive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/foodontology#E411 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/foodontology#E411">
+        <rdf:type rdf:resource="http://purl.org/foodontology#E-additive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/foodontology#E412 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/foodontology#E412">
+        <rdf:type rdf:resource="http://purl.org/foodontology#E-additive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/foodontology#E413 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/foodontology#E413">
+        <rdf:type rdf:resource="http://purl.org/foodontology#E-additive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/foodontology#E414 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/foodontology#E414">
+        <rdf:type rdf:resource="http://purl.org/foodontology#E-additive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/foodontology#E415 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/foodontology#E415">
+        <rdf:type rdf:resource="http://purl.org/foodontology#E-additive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/foodontology#E416 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/foodontology#E416">
+        <rdf:type rdf:resource="http://purl.org/foodontology#E-additive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/foodontology#E417 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/foodontology#E417">
+        <rdf:type rdf:resource="http://purl.org/foodontology#E-additive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/foodontology#E418 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/foodontology#E418">
+        <rdf:type rdf:resource="http://purl.org/foodontology#E-additive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/foodontology#E419 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/foodontology#E419">
+        <rdf:type rdf:resource="http://purl.org/foodontology#E-additive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/foodontology#E420 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/foodontology#E420">
+        <rdf:type rdf:resource="http://purl.org/foodontology#E-additive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/foodontology#E421 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/foodontology#E421">
+        <rdf:type rdf:resource="http://purl.org/foodontology#E-additive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/foodontology#E422 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/foodontology#E422">
+        <rdf:type rdf:resource="http://purl.org/foodontology#E-additive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/foodontology#E424 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/foodontology#E424">
+        <rdf:type rdf:resource="http://purl.org/foodontology#E-additive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/foodontology#E425 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/foodontology#E425">
+        <rdf:type rdf:resource="http://purl.org/foodontology#E-additive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/foodontology#E426 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/foodontology#E426">
+        <rdf:type rdf:resource="http://purl.org/foodontology#E-additive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/foodontology#E427 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/foodontology#E427">
+        <rdf:type rdf:resource="http://purl.org/foodontology#E-additive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/foodontology#E429 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/foodontology#E429">
+        <rdf:type rdf:resource="http://purl.org/foodontology#E-additive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/foodontology#E430 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/foodontology#E430">
+        <rdf:type rdf:resource="http://purl.org/foodontology#E-additive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/foodontology#E431 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/foodontology#E431">
+        <rdf:type rdf:resource="http://purl.org/foodontology#E-additive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/foodontology#E432 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/foodontology#E432">
+        <rdf:type rdf:resource="http://purl.org/foodontology#E-additive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/foodontology#E433 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/foodontology#E433">
+        <rdf:type rdf:resource="http://purl.org/foodontology#E-additive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/foodontology#E434 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/foodontology#E434">
+        <rdf:type rdf:resource="http://purl.org/foodontology#E-additive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/foodontology#E435 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/foodontology#E435">
+        <rdf:type rdf:resource="http://purl.org/foodontology#E-additive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/foodontology#E436 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/foodontology#E436">
+        <rdf:type rdf:resource="http://purl.org/foodontology#E-additive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/foodontology#E440 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/foodontology#E440">
+        <rdf:type rdf:resource="http://purl.org/foodontology#E-additive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/foodontology#E441 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/foodontology#E441">
+        <rdf:type rdf:resource="http://purl.org/foodontology#E-additive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/foodontology#E442 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/foodontology#E442">
+        <rdf:type rdf:resource="http://purl.org/foodontology#E-additive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/foodontology#E444 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/foodontology#E444">
+        <rdf:type rdf:resource="http://purl.org/foodontology#E-additive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/foodontology#E445 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/foodontology#E445">
+        <rdf:type rdf:resource="http://purl.org/foodontology#E-additive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/foodontology#E446 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/foodontology#E446">
+        <rdf:type rdf:resource="http://purl.org/foodontology#E-additive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/foodontology#E450 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/foodontology#E450">
+        <rdf:type rdf:resource="http://purl.org/foodontology#E-additive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/foodontology#E451 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/foodontology#E451">
+        <rdf:type rdf:resource="http://purl.org/foodontology#E-additive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/foodontology#E452 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/foodontology#E452">
+        <rdf:type rdf:resource="http://purl.org/foodontology#E-additive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/foodontology#E459 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/foodontology#E459">
+        <rdf:type rdf:resource="http://purl.org/foodontology#E-additive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/foodontology#E460 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/foodontology#E460">
+        <rdf:type rdf:resource="http://purl.org/foodontology#E-additive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/foodontology#E461 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/foodontology#E461">
+        <rdf:type rdf:resource="http://purl.org/foodontology#E-additive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/foodontology#E462 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/foodontology#E462">
+        <rdf:type rdf:resource="http://purl.org/foodontology#E-additive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/foodontology#E463 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/foodontology#E463">
+        <rdf:type rdf:resource="http://purl.org/foodontology#E-additive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/foodontology#E464 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/foodontology#E464">
+        <rdf:type rdf:resource="http://purl.org/foodontology#E-additive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/foodontology#E465 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/foodontology#E465">
+        <rdf:type rdf:resource="http://purl.org/foodontology#E-additive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/foodontology#E466 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/foodontology#E466">
+        <rdf:type rdf:resource="http://purl.org/foodontology#E-additive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/foodontology#E467 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/foodontology#E467">
+        <rdf:type rdf:resource="http://purl.org/foodontology#E-additive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/foodontology#E468 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/foodontology#E468">
+        <rdf:type rdf:resource="http://purl.org/foodontology#E-additive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/foodontology#E469 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/foodontology#E469">
+        <rdf:type rdf:resource="http://purl.org/foodontology#E-additive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/foodontology#E470a -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/foodontology#E470a">
+        <rdf:type rdf:resource="http://purl.org/foodontology#E-additive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/foodontology#E470b -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/foodontology#E470b">
+        <rdf:type rdf:resource="http://purl.org/foodontology#E-additive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/foodontology#E471 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/foodontology#E471">
+        <rdf:type rdf:resource="http://purl.org/foodontology#E-additive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/foodontology#E472a -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/foodontology#E472a">
+        <rdf:type rdf:resource="http://purl.org/foodontology#E-additive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/foodontology#E472b -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/foodontology#E472b">
+        <rdf:type rdf:resource="http://purl.org/foodontology#E-additive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/foodontology#E472c -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/foodontology#E472c">
+        <rdf:type rdf:resource="http://purl.org/foodontology#E-additive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/foodontology#E472d -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/foodontology#E472d">
+        <rdf:type rdf:resource="http://purl.org/foodontology#E-additive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/foodontology#E472e -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/foodontology#E472e">
+        <rdf:type rdf:resource="http://purl.org/foodontology#E-additive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/foodontology#E472f -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/foodontology#E472f">
+        <rdf:type rdf:resource="http://purl.org/foodontology#E-additive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/foodontology#E472g -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/foodontology#E472g">
+        <rdf:type rdf:resource="http://purl.org/foodontology#E-additive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/foodontology#E473 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/foodontology#E473">
+        <rdf:type rdf:resource="http://purl.org/foodontology#E-additive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/foodontology#E474 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/foodontology#E474">
+        <rdf:type rdf:resource="http://purl.org/foodontology#E-additive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/foodontology#E475 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/foodontology#E475">
+        <rdf:type rdf:resource="http://purl.org/foodontology#E-additive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/foodontology#E476 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/foodontology#E476">
+        <rdf:type rdf:resource="http://purl.org/foodontology#E-additive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/foodontology#E477 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/foodontology#E477">
+        <rdf:type rdf:resource="http://purl.org/foodontology#E-additive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/foodontology#E478 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/foodontology#E478">
+        <rdf:type rdf:resource="http://purl.org/foodontology#E-additive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/foodontology#E479b -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/foodontology#E479b">
+        <rdf:type rdf:resource="http://purl.org/foodontology#E-additive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/foodontology#E480 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/foodontology#E480">
+        <rdf:type rdf:resource="http://purl.org/foodontology#E-additive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/foodontology#E481 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/foodontology#E481">
+        <rdf:type rdf:resource="http://purl.org/foodontology#E-additive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/foodontology#E482 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/foodontology#E482">
+        <rdf:type rdf:resource="http://purl.org/foodontology#E-additive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/foodontology#E483 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/foodontology#E483">
+        <rdf:type rdf:resource="http://purl.org/foodontology#E-additive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/foodontology#E484 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/foodontology#E484">
+        <rdf:type rdf:resource="http://purl.org/foodontology#E-additive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/foodontology#E485 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/foodontology#E485">
+        <rdf:type rdf:resource="http://purl.org/foodontology#E-additive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/foodontology#E486 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/foodontology#E486">
+        <rdf:type rdf:resource="http://purl.org/foodontology#E-additive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/foodontology#E487 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/foodontology#E487">
+        <rdf:type rdf:resource="http://purl.org/foodontology#E-additive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/foodontology#E488 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/foodontology#E488">
+        <rdf:type rdf:resource="http://purl.org/foodontology#E-additive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/foodontology#E489 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/foodontology#E489">
+        <rdf:type rdf:resource="http://purl.org/foodontology#E-additive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/foodontology#E490 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/foodontology#E490">
+        <rdf:type rdf:resource="http://purl.org/foodontology#E-additive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/foodontology#E491 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/foodontology#E491">
+        <rdf:type rdf:resource="http://purl.org/foodontology#E-additive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/foodontology#E492 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/foodontology#E492">
+        <rdf:type rdf:resource="http://purl.org/foodontology#E-additive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/foodontology#E493 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/foodontology#E493">
+        <rdf:type rdf:resource="http://purl.org/foodontology#E-additive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/foodontology#E494 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/foodontology#E494">
+        <rdf:type rdf:resource="http://purl.org/foodontology#E-additive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/foodontology#E495 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/foodontology#E495">
+        <rdf:type rdf:resource="http://purl.org/foodontology#E-additive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/foodontology#E496 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/foodontology#E496">
+        <rdf:type rdf:resource="http://purl.org/foodontology#E-additive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/foodontology#E497 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/foodontology#E497">
+        <rdf:type rdf:resource="http://purl.org/foodontology#E-additive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/foodontology#E498 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/foodontology#E498">
+        <rdf:type rdf:resource="http://purl.org/foodontology#E-additive"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -2121,6 +2973,15 @@
             <rdf:Description rdf:about="http://purl.org/foodontology#E223"/>
             <rdf:Description rdf:about="http://purl.org/foodontology#E304"/>
         </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointProperties"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.org/foodontology#carbohydratesPer100gAsDouble"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#energyPer100gAsDouble"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#fatPer100gAsDouble"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#proteinsPer100gAsDouble"/>
+        </owl:members>
     </rdf:Description>
     <rdf:Description>
         <rdf:type rdf:resource="&owl;AllDifferent"/>
@@ -2255,16 +3116,174 @@
             <rdf:Description rdf:about="http://purl.org/foodontology#E290"/>
             <rdf:Description rdf:about="http://purl.org/foodontology#E296"/>
             <rdf:Description rdf:about="http://purl.org/foodontology#E297"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E300"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E301"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E302"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E303"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E304"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E305"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E306"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E307"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E308"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E309"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E310"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E311"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E312"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E313"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E314"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E315"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E316"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E317"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E318"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E319"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E320"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E321"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E322"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E323"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E324"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E325"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E326"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E327"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E328"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E329"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E330"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E331"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E332"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E333"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E334"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E335"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E336"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E337"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E338"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E339"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E340"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E341"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E342"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E343"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E344"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E345"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E349"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E350"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E351"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E352"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E353"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E354"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E355"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E356"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E357"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E359"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E363"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E365"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E366"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E367"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E368"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E370"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E380"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E381"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E383"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E384"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E385"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E386"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E387"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E388"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E389"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E390"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E391"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E392"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E399"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E400"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E401"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E402"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E403"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E404"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E405"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E406"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E407"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E407a"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E408"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E409"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E410"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E411"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E412"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E413"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E414"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E415"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E416"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E417"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E418"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E419"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E420"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E421"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E422"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E424"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E425"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E426"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E427"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E429"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E430"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E431"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E432"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E433"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E434"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E435"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E436"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E440"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E441"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E442"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E444"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E445"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E446"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E450"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E451"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E452"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E459"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E460"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E461"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E462"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E463"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E464"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E465"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E466"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E467"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E468"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E469"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E470a"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E470b"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E471"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E472a"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E472b"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E472c"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E472d"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E472e"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E472f"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E472g"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E473"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E474"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E475"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E476"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E477"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E478"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E479b"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E480"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E481"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E482"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E483"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E484"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E485"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E486"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E487"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E488"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E489"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E490"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E491"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E492"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E493"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E494"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E495"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E496"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E497"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E498"/>
         </owl:distinctMembers>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="&owl;AllDisjointProperties"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://purl.org/foodontology#carbohydratesPer100gAsDouble"/>
-            <rdf:Description rdf:about="http://purl.org/foodontology#energyPer100gAsDouble"/>
-            <rdf:Description rdf:about="http://purl.org/foodontology#fatPer100gAsDouble"/>
-            <rdf:Description rdf:about="http://purl.org/foodontology#proteinsPer100gAsDouble"/>
-        </owl:members>
     </rdf:Description>
     <rdf:Description>
         <rdf:type rdf:resource="&owl;AllDisjointProperties"/>
@@ -2274,6 +3293,134 @@
             <rdf:Description rdf:about="http://purl.org/foodontology#fatPer100g"/>
             <rdf:Description rdf:about="http://purl.org/foodontology#proteinsPer100g"/>
         </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.org/foodontology#E100"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E101"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E102"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E103"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E104"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E105"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E106"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E107"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E110"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E111"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E120"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E121"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E122"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E123"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E124"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E125"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E126"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E127"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E128"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E129"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E130"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E131"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E132"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E133"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E140"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E141"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E142"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E143"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E150a"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E150b"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E150c"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E150d"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E151"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E152"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E153"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E154"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E155"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E160a"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E160b"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E160c"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E160d"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E160e"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E160f"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E161a"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E161b"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E161c"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E161d"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E161e"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E161f"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E161g"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E161h"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E161i"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E161j"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E162"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E163"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E164"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E170"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E171"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E172"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E173"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E174"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E175"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E180"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E181"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E182"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E200"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E201"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E202"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E203"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E209"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E210"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E211"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E212"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E213"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E214"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E215"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E216"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E217"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E218"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E219"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E220"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E221"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E222"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E223"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E224"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E225"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E226"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E227"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E228"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E229"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E230"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E231"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E232"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E233"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E234"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E235"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E236"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E237"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E238"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E239"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E240"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E242"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E249"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E250"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E251"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E252"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E260"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E261"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E262"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E263"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E264"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E265"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E266"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E270"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E280"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E281"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E282"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E283"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E284"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E285"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E290"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E296"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E297"/>
+        </owl:distinctMembers>
     </rdf:Description>
 </rdf:RDF>
 
