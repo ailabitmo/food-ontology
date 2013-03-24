@@ -9,14 +9,15 @@
 ]>
 
 
-<rdf:RDF xmlns="http://purl.org/food#"
-     xml:base="http://purl.org/food"
+<rdf:RDF xmlns="http://purl.org/foodontology#"
+     xml:base="http://purl.org/foodontology"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
     <owl:Ontology rdf:about="http://purl.org/foodontology">
         <rdfs:label xml:lang="en">Food Ontology</rdfs:label>
+        <rdfs:label xml:lang="ru">Онтология еды и продуктов питания</rdfs:label>
         <owl:versionIRI rdf:resource="http://purl.org/foodontology/1.0.0"/>
         <owl:imports rdf:resource="http://purl.org/goodrelations/v1"/>
     </owl:Ontology>
@@ -125,6 +126,8 @@
     <!-- http://purl.org/foodontology#carbohydratesPer100gAsDouble -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/foodontology#carbohydratesPer100gAsDouble">
+        <rdfs:label xml:lang="en">carbohydrates per 100 g.</rdfs:label>
+        <rdfs:label xml:lang="ru">углеводов в 100 г.</rdfs:label>
         <rdfs:domain rdf:resource="http://purl.org/foodontology#Food"/>
         <rdfs:seeAlso rdf:resource="http://purl.org/foodontology#carbohydratesPer100g"/>
         <rdfs:subPropertyOf rdf:resource="http://purl.org/goodrelations/v1#datatypeProductOrServiceProperty"/>
@@ -136,6 +139,8 @@
     <!-- http://purl.org/foodontology#energyPer100gAsDouble -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/foodontology#energyPer100gAsDouble">
+        <rdfs:label xml:lang="en">energy per 100 g.</rdfs:label>
+        <rdfs:label xml:lang="ru">энергетическая ценность в 100 г.</rdfs:label>
         <rdfs:domain rdf:resource="http://purl.org/foodontology#Food"/>
         <rdfs:seeAlso rdf:resource="http://purl.org/foodontology#energyPer100g"/>
         <rdfs:subPropertyOf rdf:resource="http://purl.org/goodrelations/v1#datatypeProductOrServiceProperty"/>
@@ -147,6 +152,8 @@
     <!-- http://purl.org/foodontology#fatPer100gAsDouble -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/foodontology#fatPer100gAsDouble">
+        <rdfs:label xml:lang="en">fat per 100 g.</rdfs:label>
+        <rdfs:label xml:lang="ru">жира в 100 г.</rdfs:label>
         <rdfs:domain rdf:resource="http://purl.org/foodontology#Food"/>
         <rdfs:seeAlso rdf:resource="http://purl.org/foodontology#fatPer100g"/>
         <rdfs:subPropertyOf rdf:resource="http://purl.org/goodrelations/v1#datatypeProductOrServiceProperty"/>
@@ -167,6 +174,8 @@
     <!-- http://purl.org/foodontology#proteinsPer100gAsDouble -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/foodontology#proteinsPer100gAsDouble">
+        <rdfs:label xml:lang="en">proteins per 100 g.</rdfs:label>
+        <rdfs:label xml:lang="ru">белков в 100 г.</rdfs:label>
         <rdfs:domain rdf:resource="http://purl.org/foodontology#Food"/>
         <rdfs:seeAlso rdf:resource="http://purl.org/foodontology#proteinsPer100g"/>
         <rdfs:subPropertyOf rdf:resource="http://purl.org/goodrelations/v1#datatypeProductOrServiceProperty"/>
@@ -195,6 +204,8 @@
     <!-- http://purl.org/foodontology#E-additive -->
 
     <owl:Class rdf:about="http://purl.org/foodontology#E-additive">
+        <rdfs:label xml:lang="en">E-additive</rdfs:label>
+        <rdfs:label xml:lang="ru">Е-добавка</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:oneOf rdf:parseType="Collection">
@@ -4986,6 +4997,13 @@
     <rdf:Description>
         <rdf:type rdf:resource="&owl;AllDifferent"/>
         <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.org/foodontology#E223"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#E304"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
             <rdf:Description rdf:about="http://purl.org/foodontology#E100"/>
             <rdf:Description rdf:about="http://purl.org/foodontology#E101"/>
             <rdf:Description rdf:about="http://purl.org/foodontology#E102"/>
@@ -5390,15 +5408,6 @@
         </owl:distinctMembers>
     </rdf:Description>
     <rdf:Description>
-        <rdf:type rdf:resource="&owl;AllDisjointProperties"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://purl.org/foodontology#carbohydratesPer100gAsDouble"/>
-            <rdf:Description rdf:about="http://purl.org/foodontology#energyPer100gAsDouble"/>
-            <rdf:Description rdf:about="http://purl.org/foodontology#fatPer100gAsDouble"/>
-            <rdf:Description rdf:about="http://purl.org/foodontology#proteinsPer100gAsDouble"/>
-        </owl:members>
-    </rdf:Description>
-    <rdf:Description>
         <rdf:type rdf:resource="&owl;AllDifferent"/>
         <owl:distinctMembers rdf:parseType="Collection">
             <rdf:Description rdf:about="http://purl.org/foodontology#E223"/>
@@ -5406,11 +5415,13 @@
         </owl:distinctMembers>
     </rdf:Description>
     <rdf:Description>
-        <rdf:type rdf:resource="&owl;AllDifferent"/>
-        <owl:distinctMembers rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://purl.org/foodontology#E223"/>
-            <rdf:Description rdf:about="http://purl.org/foodontology#E304"/>
-        </owl:distinctMembers>
+        <rdf:type rdf:resource="&owl;AllDisjointProperties"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.org/foodontology#carbohydratesPer100gAsDouble"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#energyPer100gAsDouble"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#fatPer100gAsDouble"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#proteinsPer100gAsDouble"/>
+        </owl:members>
     </rdf:Description>
     <rdf:Description>
         <rdf:type rdf:resource="&owl;AllDisjointProperties"/>
