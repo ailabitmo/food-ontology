@@ -70,6 +70,8 @@
     <!-- http://purl.org/foodontology#containsIngredient -->
 
     <owl:ObjectProperty rdf:about="http://purl.org/foodontology#containsIngredient">
+        <rdfs:comment xml:lang="en">contains ingredient</rdfs:comment>
+        <rdfs:comment xml:lang="ru">содержит ингредиент</rdfs:comment>
         <rdfs:domain rdf:resource="http://purl.org/foodontology#Food"/>
         <rdfs:range rdf:resource="http://purl.org/foodontology#Ingredient"/>
     </owl:ObjectProperty>
