@@ -202,48 +202,6 @@
     
 
 
-    <!-- http://purl.org/foodontology#CowMilk -->
-
-    <owl:Class rdf:about="http://purl.org/foodontology#CowMilk">
-        <rdfs:label xml:lang="en">Cow milk</rdfs:label>
-        <rdfs:label xml:lang="ru">Молоко коровье</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#MilkOfAnimals"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/foodontology#Cream -->
-
-    <owl:Class rdf:about="http://purl.org/foodontology#Cream">
-        <rdfs:label xml:lang="en">Cream</rdfs:label>
-        <rdfs:label xml:lang="ru">сливки</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#DairyProduct"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/foodontology#CulturedDairyProduct -->
-
-    <owl:Class rdf:about="http://purl.org/foodontology#CulturedDairyProduct">
-        <rdfs:label xml:lang="en">Cultured dairy product</rdfs:label>
-        <rdfs:label xml:lang="ru">Кисломолочный продукт</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#DairyProduct"/>
-        <rdfs:seeAlso rdf:datatype="&xsd;anyURI">http://en.wikipedia.org/wiki/Fermented_milk_products</rdfs:seeAlso>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/foodontology#DairyProduct -->
-
-    <owl:Class rdf:about="http://purl.org/foodontology#DairyProduct">
-        <rdfs:label xml:lang="en">Dairy product</rdfs:label>
-        <rdfs:label xml:lang="ru">Молочный продукт</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#Food"/>
-        <rdfs:seeAlso rdf:datatype="&xsd;anyURI">http://en.wikipedia.org/wiki/Dairy_product</rdfs:seeAlso>
-    </owl:Class>
-    
-
-
     <!-- http://purl.org/foodontology#E-additive -->
 
     <owl:Class rdf:about="http://purl.org/foodontology#E-additive">
@@ -799,108 +757,12 @@
     
 
 
-    <!-- http://purl.org/foodontology#GoatMilk -->
-
-    <owl:Class rdf:about="http://purl.org/foodontology#GoatMilk">
-        <rdfs:label xml:lang="en">Goat milk</rdfs:label>
-        <rdfs:label xml:lang="ru">Молоко козье</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#MilkOfAnimals"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/foodontology#IceCream -->
-
-    <owl:Class rdf:about="http://purl.org/foodontology#IceCream">
-        <rdfs:label xml:lang="en">Ice cream</rdfs:label>
-        <rdfs:label xml:lang="ru">Мороженое</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#DairyProduct"/>
-        <rdfs:seeAlso rdf:datatype="&xsd;anyURI">http://en.wikipedia.org/wiki/Ice_cream</rdfs:seeAlso>
-    </owl:Class>
-    
-
-
     <!-- http://purl.org/foodontology#Ingredient -->
 
     <owl:Class rdf:about="http://purl.org/foodontology#Ingredient">
         <rdfs:label xml:lang="en">Ingredient</rdfs:label>
         <rdfs:label xml:lang="ru">Ингредиент</rdfs:label>
         <rdfs:seeAlso rdf:datatype="&xsd;anyURI">http://en.wikipedia.org/wiki/Ingredient</rdfs:seeAlso>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/foodontology#Kefir -->
-
-    <owl:Class rdf:about="http://purl.org/foodontology#Kefir">
-        <rdfs:label xml:lang="en">Kefir</rdfs:label>
-        <rdfs:label xml:lang="ru">Кефир</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#CulturedDairyProduct"/>
-        <rdfs:seeAlso rdf:datatype="&xsd;anyURI">http://en.wikipedia.org/wiki/Kefir</rdfs:seeAlso>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/foodontology#MilkOfAnimals -->
-
-    <owl:Class rdf:about="http://purl.org/foodontology#MilkOfAnimals">
-        <rdfs:label xml:lang="en">Milk of animals</rdfs:label>
-        <rdfs:label xml:lang="ru">Молоко (животное)</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#DairyProduct"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/foodontology#Quark -->
-
-    <owl:Class rdf:about="http://purl.org/foodontology#Quark">
-        <rdfs:label xml:lang="en">Quark</rdfs:label>
-        <rdfs:label xml:lang="ru">Творог</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#CulturedDairyProduct"/>
-        <rdfs:seeAlso rdf:datatype="&xsd;anyURI">http://en.wikipedia.org/wiki/Quark_%28cheese%29</rdfs:seeAlso>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/foodontology#Ryazhenka -->
-
-    <owl:Class rdf:about="http://purl.org/foodontology#Ryazhenka">
-        <rdfs:label xml:lang="en">Ryazhenka</rdfs:label>
-        <rdfs:label xml:lang="ru">Ряженка</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#CulturedDairyProduct"/>
-        <rdfs:seeAlso rdf:datatype="&xsd;anyURI">http://en.wikipedia.org/wiki/Ryazhenka</rdfs:seeAlso>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/foodontology#SourCream -->
-
-    <owl:Class rdf:about="http://purl.org/foodontology#SourCream">
-        <rdfs:label xml:lang="en">Sour cream</rdfs:label>
-        <rdfs:label xml:lang="ru">Сметана</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#CulturedDairyProduct"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/foodontology#SouredMilk -->
-
-    <owl:Class rdf:about="http://purl.org/foodontology#SouredMilk">
-        <rdfs:label xml:lang="en">Soured milk</rdfs:label>
-        <rdfs:label xml:lang="ru">Простокваша</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#CulturedDairyProduct"/>
-        <rdfs:seeAlso rdf:datatype="&xsd;anyURI">http://en.wikipedia.org/wiki/Soured_milk</rdfs:seeAlso>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/foodontology#Yogurt -->
-
-    <owl:Class rdf:about="http://purl.org/foodontology#Yogurt">
-        <rdfs:label xml:lang="en">Yogurt</rdfs:label>
-        <rdfs:label xml:lang="ru">Йогурт</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#CulturedDairyProduct"/>
-        <rdfs:seeAlso rdf:datatype="&xsd;anyURI">http://en.wikipedia.org/wiki/Yogurt</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -915,6 +777,1028 @@
 
     <owl:Class rdf:about="http://purl.org/goodrelations/v1#QuantitativeValueFloat"/>
     
+    
+    <!-- http://purl.org/foodontology#BakeryWares -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#BakeryWares">
+        <rdfs:label xml:lang="en">Bakery wares</rdfs:label>
+        <rdfs:label xml:lang="ru">Хлебобулочные изделия</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#FoodCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#BeverageWhiteners -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#BeverageWhiteners">
+        <rdfs:label xml:lang="en">Beverage whiteners</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#CondensedMilkAndAnaloguesPlain"/>
+        <rdfs:comment xml:lang="en">Milk or cream substitute consisting of a vegetable fat-water emulsion in water with milk protein and lactose or vegetable proteins for use in beverages such as coffee and tea. Also includes the same type of products in powdered form. Includes condensed milk analogues, blends of evaporated skimmed milk and vegetable fat and blends of sweetened condensed skimmed milk and vegetable fat.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#Beverages -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#Beverages">
+        <rdfs:label xml:lang="en">Beverages, excluding dairy products</rdfs:label>
+        <rdfs:label xml:lang="ru">Напитки, исключая молочные продукты</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#FoodCategory"/>
+        <rdfs:comment xml:lang="en">This major category is divided into the broad categories of non-alcoholic (14.1) and alcoholic (14.2) beverages. Dairy-based beverages are included in 01.1.2. </rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#BreadAndOrdinaryBakeryWares -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#BreadAndOrdinaryBakeryWares">
+        <rdfs:label xml:lang="en">Bread and ordinary bakery wares</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#BakeryWares"/>
+        <rdfs:comment xml:lang="en">Includes all types of non-sweet bakery products and bread-derived products. </rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#BreadTypeProductsIncludingBreadStuffingAndBreadCrumbs -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#BreadTypeProductsIncludingBreadStuffingAndBreadCrumbs">
+        <rdfs:label xml:lang="en">Bread-type products, including bread stuffing and bread crumbs</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#BreadAndOrdinaryBakeryWares"/>
+        <rdfs:comment xml:lang="en">Includes bread-based products such as croutons, bread stuffing and stuffing mixes, and prepared doughs (e.g., for biscuits). Bread mixes are included in category 07.1.6. </rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#BreadsAndRolls -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#BreadsAndRolls">
+        <rdfs:label xml:lang="en">Breads and rolls</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#BreadAndOrdinaryBakeryWares"/>
+        <rdfs:comment xml:lang="en">Includes yeast-leavened and specialty breads and soda bread. </rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#BreakfastCereals -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#BreakfastCereals">
+        <rdfs:label xml:lang="en">Breakfast cereals, including rolled oats</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#CerealProducts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#Butter -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#Butter">
+        <rdfs:label xml:lang="en">Butter</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#FatEmulsionsMainlyOfTypeWaterInOil"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#Buttermilk -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#Buttermilk">
+        <rdfs:label xml:lang="en">Buttermilk (plain)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#MilkAndButterMilk"/>
+        <rdfs:comment xml:lang="en">Buttermilk is the nearly milkfat-free fluid remaining from the butter-making process (i.e., the churning fermented or non-fermented milk and cream). Buttermilk is also produced by fermentation of fluid skim milk, either by spontaneous souring by the action of lactic acid-forming or aroma-forming bacteria, or by inoculation of heated milk with pure bacterial cultures (cultured buttermilk).1 Buttermilk may be pasteurized or sterilized.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#CakesCookiesPies -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#CakesCookiesPies">
+        <rdfs:label xml:lang="en">Cakes, cookies and pies</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#FineBakeryWares"/>
+        <rdfs:comment xml:lang="en">Cakes, cookies and pies (e.g. fruit-filled or custard types)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#CannedMeat -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#CannedMeat">
+        <rdfs:label xml:lang="en">Canned meat</rdfs:label>
+        <rdfs:label xml:lang="ru">Мясные консервы</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#MeatProducts"/>
+        <owl:deprecated xml:lang="ru">Нестандартизированная категория</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#CarbonatedWaterBasedFlavouredDrinks -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#CarbonatedWaterBasedFlavouredDrinks">
+        <rdfs:label xml:lang="en">Carbonated water-based flavoured drinks</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#WaterBasedFlavouredDrinks"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#CerealProducts -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#CerealProducts">
+        <rdfs:label xml:lang="en">Cereals and cereal products</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#FoodCategory"/>
+        <rdfs:comment xml:lang="en">Cereals and cereal products, derived from cereal grains, from roots and tubers, pulses, legumes and pith or soft core of palm tree, excluding bakery wares of food category</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#CheeseAnalogues -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#CheeseAnalogues">
+        <rdfs:label xml:lang="en">Cheese analogues</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#CheeseAndAnalogues"/>
+        <rdfs:comment xml:lang="en">Products that look like cheese, but in which milkfat has been partly or completely replaced by other fats. Includes imitation cheese, imitation cheese mixes, and imitation cheese powders.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#CheeseAndAnalogues -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#CheeseAndAnalogues">
+        <rdfs:label xml:lang="en">Cheese and analogues</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#DairyProducts"/>
+        <rdfs:comment xml:lang="en">Cheese and cheese analogues are products that have water and fat included within a coagulated milk-protein structure. Products such as cheese sauce (12.6.2), cheese-flavoured snacks (15.1), and composite prepared foods containing cheese as an ingredient (e.g., macaroni and cheese; 16.0) are categorized elsewhere.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#CheesePowder -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#CheesePowder">
+        <rdfs:label xml:lang="en">Cheese powder</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#RipenedCheese"/>
+        <rdfs:comment xml:lang="en">Dehydrated product prepared from a variety or processed cheese. Does not include grated or shredded cheese (01.6.2.1 for variety cheese; 01.6.4 for processed cheese). Product is intended either to be reconstituted with milk or water to prepare a sauce, or used as-is as an ingredient (e.g.., with cooked macaroni , milk and butter to prepare a macaroni and cheese casserole). Includes spray-dried cheese.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#ClottedCream -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#ClottedCream">
+        <rdfs:label xml:lang="en">Clotted cream (plain)</rdfs:label>
+        <rdfs:label xml:lang="ru">Взбитые сливки (обыкновенные)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#CreamAndTheLike"/>
+        <rdfs:comment xml:lang="en">Thickened, viscous cream formed from the action of milk coagulating enzymes. Includes sour cream (cream subjected to lactic acid fermentation achieved as described for buttermilk (01.1.1.2)).1</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#CocoaChocolateProducts -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#CocoaChocolateProducts">
+        <rdfs:label xml:lang="en">Cocoa and chocolate products</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#CocoaProductsAndChocolateProducts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#CocoaProductsAndChocolateProducts -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#CocoaProductsAndChocolateProducts">
+        <rdfs:label xml:lang="en">Cocoa products and chocolate products including imilations and chocolate substitutes</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#Confectionery"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#ConcentratesForFruitNectar -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#ConcentratesForFruitNectar">
+        <rdfs:label xml:lang="en">Concentrates for fruit nectar</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#FruitAndVegetableNectars"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#ConcentratesForVegetableNectar -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#ConcentratesForVegetableNectar">
+        <rdfs:label xml:lang="en">Concentrates for vegetable nectar</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#FruitAndVegetableNectars"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#CondensedMilkAndAnaloguesPlain -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#CondensedMilkAndAnaloguesPlain">
+        <rdfs:label xml:lang="en">Condensed milk and analogues (plain)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#DairyProducts"/>
+        <rdfs:comment xml:lang="en">Includes plain and sweetened types of condensed milk, evaporated milk, and their analogues (including beverage whiteners). Includes products based on skim, part-skim, low-fat and whole milk, blends of evaporated skimmed milk and vegetable fat, and blends of sweetened condensed skimmed milk and vegetable fat.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#CondensedMilkPlain -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#CondensedMilkPlain">
+        <rdfs:label xml:lang="en">Condensed milk (plain)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#CondensedMilkAndAnaloguesPlain"/>
+        <rdfs:comment xml:lang="en">Condensed milk is obtained by partial removal of water from milk to which sugar may have been added. For evaporated milk, the water removal may be accomplished by heating.1 Includes partially dehydrated milk, evaporated milk, sweetened condensed milk, and khoa (cow or buffalo milk concentrated by boiling).</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#Confectionery -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#Confectionery">
+        <rdfs:label xml:lang="en">Confectionery</rdfs:label>
+        <rdfs:label xml:lang="ru">Кондитерские изделия</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#FoodCategory"/>
+        <rdfs:comment xml:lang="en">Includes all cocoa and chocolate products (05.1), other confectionery products that may or may not contain cocoa (05.2), chewing gum (05.3), and decorations and icings (05.4), or foods produced solely with any combination of foods conforming to these sub-categories. </rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#Crackers -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#Crackers">
+        <rdfs:label xml:lang="en">Crackers, excluding sweet crackers</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#BreadAndOrdinaryBakeryWares"/>
+        <rdfs:comment xml:lang="en">The term “cracker” refers to a thin, crisp wafer, usually of unsweetened dough. Flavoured crackers (e.g., cheese flavoured) that are consumed as snacks are in 15.1. Examples include: soda crackers, rye crisps, and matzohs. </rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#CreamAnalogues -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#CreamAnalogues">
+        <rdfs:label xml:lang="en">Cream analogues</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#CreamAndTheLike"/>
+        <rdfs:comment xml:lang="en">Cream substitute consisting of a vegetable fat-water emulsion in liquid or powdered form for use other than as a beverage whitener (01.3.2). Includes instant whipped cream toppings and sour cream substitutes. </rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#CreamAndTheLike -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#CreamAndTheLike">
+        <rdfs:label xml:lang="en">Cream (plain) and the like</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#DairyProducts"/>
+        <rdfs:comment xml:lang="en">Cream is a fluid dairy product, relatively high in fat content in comparison to milk. Includes all plain fluid, semi-fluid and semi-solid cream and cream analogue products. Flavoured cream products are found in 01.1.2 (beverages) and 01.7 (desserts). </rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#DairyBasedDesserts -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#DairyBasedDesserts">
+        <rdfs:label xml:lang="en">Dairy-based desserts</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#DairyProducts"/>
+        <rdfs:comment xml:lang="en">Dairy-based desserts (e.g. pudding, fruit or flauvored yoghurt)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#DairyBasedDrinks -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#DairyBasedDrinks">
+        <rdfs:label xml:lang="en">Dairy-based drinks, flavoured and/or fermented</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#MilkAndDairyBasedDrinks"/>
+        <rdfs:comment xml:lang="en">Dairy-based drinks, flavoured and/or fermented (e.g. chocolate milk, cocoa, eggnog, drinking yoghurt, whey-based drinks)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#DairyProducts -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#DairyProducts">
+        <rdfs:label xml:lang="en">Dairy products and analogues, excluding fats, oils and fat emulsions</rdfs:label>
+        <rdfs:label xml:lang="ru">Молочные продукты и аналоги, исключая жиры, масла и жировые эмульсии</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#FoodCategory"/>
+        <rdfs:comment xml:lang="en">Includes all types of dairy products that are derived from the milk of any milking animal (e.g., cow, sheep, goat, buffalo). In this category, a “plain” product is one that is not flavoured, nor contains fruit, vegetables or other non-dairy ingredients, nor is mixed with other non-dairy ingredients, unless permitted by relevant standards. Analogues are products in which milk fat has been partially or wholly replaced by vegetable fats or oils. </rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#DriedFruit -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#DriedFruit">
+        <rdfs:label xml:lang="en">Dried fruit</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#ProcessedFruit"/>
+        <rdfs:comment xml:lang="en">Fruit that may or may not be blanched prior to freezing. The product may be frozen in a juice or sugar syrup.1 Examples include frozen fruit salad and frozen strawberries. </rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#DriedWheyAndWheyProducts -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#DriedWheyAndWheyProducts">
+        <rdfs:label xml:lang="en">Dried whey and whey products</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#WheyAndWheyProductsExcludingWheyCheeses"/>
+        <rdfs:comment xml:lang="en">Whey powders are prepared by spray- or roller-drying whey or acid whey from which the major portion of the milkfat has been removed.1</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#EdibleIces -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#EdibleIces">
+        <rdfs:label xml:lang="en">Edible ices, including sherbet and sorbet</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#FoodCategory"/>
+        <rdfs:comment xml:lang="en">This category includes water-based frozen desserts, confections and novelties, such as fruit sorbet, “Italian”-style ice, and flavoured ice. Frozen desserts containing primarily dairy ingredients are included in food category 01.7. </rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#EggsAndEggsProducts -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#EggsAndEggsProducts">
+        <rdfs:label xml:lang="en">Eggs and egg products</rdfs:label>
+        <rdfs:label xml:lang="ru">Яйца и продукты на их основе</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#FoodCategory"/>
+        <rdfs:comment xml:lang="en">Includes fresh in-shell eggs (10.1), products that may substitute for fresh eggs (10.2) and other egg products (10.3 and 10.4). </rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#EmulsifiedSaucesAndDips -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#EmulsifiedSaucesAndDips">
+        <rdfs:label xml:lang="en">Emulsified sauces and dips</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#SaucesLikeProducts"/>
+        <rdfs:comment xml:lang="en">Emulsified sauces and dips (e.g. mayonnaise, salad dressing, onion dip)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#FatEmulsionsMainlyOfTypeWaterInOil -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#FatEmulsionsMainlyOfTypeWaterInOil">
+        <rdfs:label xml:lang="en">Fat emulsions mainly of type water-in-oil</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#FatsOilsFatsEmulsions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#FatsOilsFatsEmulsions -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#FatsOilsFatsEmulsions">
+        <rdfs:label xml:lang="en">Fats, oils and fat emulsions</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#FoodCategory"/>
+        <rdfs:comment xml:lang="en">Includes all fat-based products that are derived from vegetable, animal or marine sources, or their mixtures. </rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#FermentedMilks -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#FermentedMilks">
+        <rdfs:label xml:lang="en">Fermented milks (plain)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#FermentedRennetedMilkProducts"/>
+        <rdfs:comment xml:lang="en">Includes all plain products, including fluid fermented milk, acidified milk and cultured milk. Plain yoghurt, which does not contain flavours or colours, may be found in one of the sub-categories of 01.2.1 depending on whether it is heat-treated after fermentation or not.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#FermentedMilksHeatTreatedAfterFermentation -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#FermentedMilksHeatTreatedAfterFermentation">
+        <rdfs:label xml:lang="en">Fermented milks (plain), heat-treated after fermentation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#FermentedMilks"/>
+        <rdfs:comment xml:lang="en">Products similar to that in 01.2.1.1, except that they have been heat-treated (e.g., sterilized or pasteurized) after fermentation.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#FermentedMilksNotHeatTreatedAfterFermentation -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#FermentedMilksNotHeatTreatedAfterFermentation">
+        <rdfs:label xml:lang="en">Fermented milks (plain), not heat-treated after fermentation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#FermentedMilks"/>
+        <rdfs:comment xml:lang="en">Includes fluid and non-fluid plain products, such as yoghurt.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#FermentedRennetedMilkProducts -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#FermentedRennetedMilkProducts">
+        <rdfs:label xml:lang="en">Fermented and renneted milk products (plain), excluding dairy-based drinks</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#DairyProducts"/>
+        <rdfs:comment xml:lang="en">Includes all plain products based on skim, part-skim, low-fat and whole milk. Flavoured products are included in 01.1.2 (beverages) and 01.7 (desserts).</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#FineBakeryWares -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#FineBakeryWares">
+        <rdfs:label xml:lang="en">Fine bakery wares (sweet, salty, savoury) and mixes</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#BakeryWares"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#FishProducts -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#FishProducts">
+        <rdfs:label xml:lang="en">Fish and fish products, including mollusks, crustaceans and echinoderms</rdfs:label>
+        <rdfs:label xml:lang="ru">Рыба и рыбные продукты, включая моллюсков, ракообразные и иглокожие</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#FoodCategory"/>
+        <rdfs:comment xml:lang="en">This broad category is divided into categories for fresh fish (09.1) and various processed fish products (09.2 – 09.4). This category includes aquatic vertebrates (fish and aquatic mammals (e.g., whales)), aquatic invertebrates ( e.g., jellyfish), as well as mollusks (e.g., clams, snails), crustaceans (e.g., shrimp, crab, lobster), and echinoderms (e.g., sea urchins, sea cucmbers). Fish products may be treated with coatings, such as glazes and spice rubs, prior to marketing to the consumer (e.g., glazed frozen fish fillets). In the FCS, this is indicated with a notation for “use as a glaze or coating (surface treatment).” </rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#FlavouredProcessedCheese -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#FlavouredProcessedCheese">
+        <rdfs:label xml:lang="en">Flavoured processed cheese</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#ProcessedCheese"/>
+        <rdfs:comment xml:lang="en">Processed cheese product that contains added flavours, seasonings, fruit, vegetables and/or meat. Examples include: neufchatel cheese spread with vegetables, pepper jack cheese, cheddar cheese spread with wine, and cheese balls (formed processed cheese coated in nuts, herbs or spices). </rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#FoodCategory -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#FoodCategory"/>
+    
+
+
+    <!-- http://purl.org/foodontology#FoodstuffsIntendedForParticularNutritionalUses -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#FoodstuffsIntendedForParticularNutritionalUses">
+        <rdfs:label xml:lang="en">Foodstuffs intended for particular nutritional uses</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#FoodCategory"/>
+        <rdfs:comment xml:lang="en">Foods for special dietary use are specially processed or formulated to satisfy particular dietary requirements that exist because of a particular physical or physiological condition and/or specific disease and disorder. The composition of these foods must differ significantly from the composition of ordinary foods of comparable nature, if such foods exist.1 Dietetic foods other than those in 13.0 are included in the categories for their standard counterparts.2</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#FrankfurtersAndWieners -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#FrankfurtersAndWieners">
+        <rdfs:label xml:lang="ru">Сосиски, сардельки</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#MeatProducts"/>
+        <owl:deprecated xml:lang="ru">Нестандартизированная категория</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#FreshEggs -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#FreshEggs">
+        <rdfs:label xml:lang="en">Fresh eggs</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#EggsAndEggsProducts"/>
+        <rdfs:comment xml:lang="en">Fresh in-shell eggs are not expected to contain additives. However, colours may be used for decorating, dyeing or stamping the exterior surfaces of shell eggs. In the FCS, a notation for &quot;for decoration, stamping, marking or branding the product (surface treatment) accommodates this.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#FreshFruit -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#FreshFruit">
+        <rdfs:label xml:lang="en">Fresh fruit</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#Fruit"/>
+        <rdfs:comment xml:lang="en">Fresh fruit is generally free of additives. However, fresh fruit that is coated or cut or peeled for presentation to the consumer may contain additives. </rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#FreshMeat -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#FreshMeat">
+        <rdfs:label xml:lang="en">Fresh meat, poultry and game</rdfs:label>
+        <rdfs:label xml:lang="ru">Свежее мясо, домашняя птица и дичь</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#MeatProducts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#Fruit -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#Fruit">
+        <rdfs:label xml:lang="en">Fruit</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#FruitsAndVegetables"/>
+        <rdfs:comment xml:lang="en">Includes all fresh (04.1.1) and processed (04.1.2) products. </rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#FruitAndVegetableNectars -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#FruitAndVegetableNectars">
+        <rdfs:label xml:lang="en">Fruit and vegetable nectars</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#NonAlcoholicBeverages"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#FruitNectar -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#FruitNectar">
+        <rdfs:label xml:lang="en">Fruit nectar</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#FruitAndVegetableNectars"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#FruitsAndVegetables -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#FruitsAndVegetables">
+        <rdfs:label xml:lang="en">Fruits and vegetables</rdfs:label>
+        <rdfs:label xml:lang="ru">Овощи и фрукты</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#FoodCategory"/>
+        <rdfs:comment xml:lang="en">This major category is divided into two categories: 04.1(Fruit) and 04.2 (Vegetables (including mushrooms and fungi, roots and tubers, pulses and legumes, and aloe vera), seaweeds, and nuts and seeds). Each of these categories is further divided into sub-categories for fresh and processed products. </rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#Ham -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#Ham">
+        <rdfs:label xml:lang="en">Ham</rdfs:label>
+        <rdfs:label xml:lang="ru">Ветчина</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#MeatProducts"/>
+        <owl:deprecated xml:lang="ru">Нестандартизированная категория</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#HeatTreatedProcessedCommunitedMeatPoultryGameProducts -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#HeatTreatedProcessedCommunitedMeatPoultryGameProducts">
+        <rdfs:label xml:lang="en">Heat-treated processed comminuted meat, poultry, and game products</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#ProcessedComminutedMeat"/>
+        <rdfs:comment xml:lang="en">Includes cooked (including cured and cooked, and dried and cooked), heat-treated (including sterilized) and canned comminuted products. Examples include: pre-grilled beef patties; foie gras and pates; brawn and head cheese; cooked, cured chopped meat; chopped meat boiled in soy sauce (tsukudani); canned corned beef; luncheon meats; meat pastes; cooked meat patties; cooked salami-type products; cooked meatballs; saucises de strasbourg; breakfast sausages; brown-and-serve sausages; and terrines (a cooked chopped meat mixture).</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#HerbsAndSpices -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#HerbsAndSpices">
+        <rdfs:label xml:lang="en">Herbs and spices</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#HerbsSpicesSeasoningsCondiments"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#HerbsSpicesSeasoningsCondiments -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#HerbsSpicesSeasoningsCondiments">
+        <rdfs:label xml:lang="en">Herbs, spices, seasonings and condiments</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#SaltsSpicesSoupsSaucesSaladsProteinProducts"/>
+        <rdfs:comment xml:lang="en">Herbs, spices, seasonings and condiments (e.g. seasoning for instant noodles)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#LiquidWheyAndWheyProducts -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#LiquidWheyAndWheyProducts">
+        <rdfs:label xml:lang="en">Liquid whey and whey products</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#WheyAndWheyProductsExcludingWheyCheeses"/>
+        <rdfs:comment xml:lang="en">Whey is the fluid separated from the curd after coagulation of milk, cream, skimmed milk or buttermilk with milk coagulating enzymes during the manufacture of cheese, casein or similar products. Acid whey is obtained after the coagulation of milk, cream, skimmed milk or buttermilk, mainly with acids of the type used for the manufacture of fresh cheese.1</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#MeatProducts -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#MeatProducts">
+        <rdfs:label xml:lang="en">Meat and meat products, including poultry and game</rdfs:label>
+        <rdfs:label xml:lang="ru">Мясо и мясные продукты, включая мясо домашней птицы и дичи</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#FoodCategory"/>
+        <rdfs:comment xml:lang="en">This category includes all types of meat, poultry, and game products, in pieces and cuts or comminuted, fresh (08.1) and processed (08.2 and 08.3). </rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#Milk -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#Milk">
+        <rdfs:label xml:lang="en">Milk (plain)</rdfs:label>
+        <rdfs:label xml:lang="ru">Молоко (обыкновенное)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#MilkAndButterMilk"/>
+        <rdfs:comment xml:lang="en">Fluid milk obtained from milking animals (e.g., cows, sheep, goats, buffalo). Milk is usually heat-treated by pasteurization, ultra-high temperature (UHT) treatment or sterilization.1 Includes skim, part-skim, low-fat and whole milk. </rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#MilkAndButterMilk -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#MilkAndButterMilk">
+        <rdfs:label xml:lang="en">Milk and butter milk (plain)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#MilkAndDairyBasedDrinks"/>
+        <rdfs:comment xml:lang="en">Includes plain fluid products only. Includes reconstituted plain milk that contains only dairy ingredients. </rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#MilkAndDairyBasedDrinks -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#MilkAndDairyBasedDrinks">
+        <rdfs:label xml:lang="en">Milk and dairy-based drinks</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#DairyProducts"/>
+        <rdfs:comment xml:lang="en">Includes all plain and flavoured fluid milk products based on skim, part-skim, low-fat and whole milk. </rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#MilkPowderAndCreamPowder -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#MilkPowderAndCreamPowder">
+        <rdfs:label xml:lang="en">Milk powder and cream powder (plain)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#MilkPowderCreamPowderPowderAnalogues"/>
+        <rdfs:comment xml:lang="en">Milk products obtained by partial removal of water from milk or cream and produced in a powdered form.1 Includes casein and caseinates.2</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#MilkPowderAndCreamPowderAnalogues -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#MilkPowderAndCreamPowderAnalogues">
+        <rdfs:label xml:lang="en">Milk and cream powder analogues</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#MilkPowderCreamPowderPowderAnalogues"/>
+        <rdfs:comment xml:lang="en">Products based on a fat-water emulsion and dried for use other than as a beverage whitener (01.3.2). Examples include imitation dry cream mix and blends of skimmed milk and vegetable fat in powdered form.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#MilkPowderCreamPowderPowderAnalogues -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#MilkPowderCreamPowderPowderAnalogues">
+        <rdfs:label xml:lang="en">Milk powder, cream powder and powder analogues (plain)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#DairyProducts"/>
+        <rdfs:comment xml:lang="en">Includes plain milk powders, cream powders, or combination of the two, and their analogues. Includes products based on skim, part-skim, low-fat and whole milk.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#MixesForBreadAndOrdinaryBakeryWares -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#MixesForBreadAndOrdinaryBakeryWares">
+        <rdfs:label xml:lang="en">Mixes for bread and ordinary bakery wares</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#BreadAndOrdinaryBakeryWares"/>
+        <rdfs:comment xml:lang="en">Includes all the mixes containing the dry ingredients to which wet ingredients (e.g., water, milk, oil, butter, eggs) are added to prepare a dough for baked goods from food categories 07.1.1 to 07.1.5. Examples include: French bread mix, tin bread mix, pannetone mix, ciabatta mix, among others. Mixes for fine bakery wares (e.g., cakes, cookies, pancakes) are found in category 07.2.3.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#MixesForFineBakeryWares -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#MixesForFineBakeryWares">
+        <rdfs:label xml:lang="en">Mixes for fine bakery wares (e.g., cakes, pancakes)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#FineBakeryWares"/>
+        <rdfs:comment xml:lang="en">Mixes containing the dry ingredients to which wet ingredients (e.g., water, milk, oil, butter, eggs) are added to prepare a dough for fine baked goods. Examples include: cake mix, flour confectionery mix, pancake mix, pie mix, and waffle mix. Prepared dough is found in category 07.1.4. Mixes for ordinary bakery wares (e.g., bread) is found in category 07.1.6. </rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#NaturalMineralWatersAndSourceWaters -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#NaturalMineralWatersAndSourceWaters">
+        <rdfs:label xml:lang="en">Natural mineral waters and source waters</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#Waters"/>
+        <rdfs:comment xml:lang="en">Waters obtained directly at the source and packaged close to the source; are characterized by the presence of certain mineral salts in relative proportions and trace elements or other constituents. Natural mineral water may be naturally carbonated (with carbon dioxide from the source), carbonated (with added carbon dioxide of another origin), decarbonated (with less carbon dioxide than present in the water at the source so it does not spontaneously give off carbon dioxide under conditions of standard temperature and pressure), or fortified (with carbon dioxide from the source), and non-carbonated (contains no free carbon dioxide).1</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#NonAlcoholicBeverages -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#NonAlcoholicBeverages">
+        <rdfs:label xml:lang="en">Non-alcoholic (&quot;soft&quot;) beverages</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#Beverages"/>
+        <rdfs:comment xml:lang="en">This broad category includes waters and carbonated waters (14.1.1), fruit and vegetable juices (14.1.2), fruit and vegetable nectars (14.1.3), water-based flavoured carbonated and non-carbonated drinks (14.1.4), and water-based brewed or steeped beverages such as coffee and tea (14.1.5). </rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#OtherFineBakeryProducts -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#OtherFineBakeryProducts">
+        <rdfs:label xml:lang="en">Other fine bakery products (e.g., doughnuts, sweet rolls, scones, and muffins)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#FineBakeryWares"/>
+        <rdfs:comment xml:lang="en">Includes products that may be eaten as a dessert or as breakfast. Examples include: pancakes, waffles, filled sweet buns (anpan), Danish pastry, wafers or cones for ice cream, flour confectionery, and trifles. </rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#OtherOrdinaryBakeryProducts -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#OtherOrdinaryBakeryProducts">
+        <rdfs:label xml:lang="en">Other ordinary bakery products (e.g., bagels, pita, English muffins)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#BreadAndOrdinaryBakeryWares"/>
+        <rdfs:comment xml:lang="en">Includes all other ordinary bakery wares, such as cornbread and biscuits. The term “biscuit” in this category refers to a small cake of shortened bread, leavened with baking powder or baking soda. It does not refer to the British “biscuit,” which is a “cookie” or “sweet cracker” included in category 07.2.1. </rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#PasteurizedCream -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#PasteurizedCream">
+        <rdfs:label xml:lang="en">Pasteurized cream (plain)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#CreamAndTheLike"/>
+        <rdfs:comment xml:lang="en">Cream subjected to pasteurization by appropriate heat treatment or made from pasteurized milk.1 Includes milk cream and “half-and-half.” </rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#PlainProcessedCheese -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#PlainProcessedCheese">
+        <rdfs:label xml:lang="en">Plain processed cheese</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#ProcessedCheese"/>
+        <rdfs:comment xml:lang="en">Processed cheese product that does not contain added flavours, seasonings, fruit, vegetables and/or meat. Examples include: American cheese, requeson. </rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#PreparedFoods -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#PreparedFoods">
+        <rdfs:label xml:lang="en">Prepared foods</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#FoodCategory"/>
+        <rdfs:comment xml:lang="en">These foods are not included in the other food categories (01-15) and should be considered on a case-by-case basis. Prepared foods are mixtures of multiple components (e.g., meat, sauce, grain, cheese, vegetables); the components are included in other food categories. Prepared foods require minimal preparation by the consumer (e.g., heating, thawing, rehydrating). Provisions for additives will be listed in this food category in the GSFA only if the additive is needed: (i) solely to have a technological function in the prepared food as sold to the consumer; or (ii) at a use level that has an intentional technological function in the prepared food that exceeds the use level that can be accounted for by carry-over from the individual components. </rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#ProcessedCheese -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#ProcessedCheese">
+        <rdfs:label xml:lang="en">Processed cheese</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#CheeseAndAnalogues"/>
+        <rdfs:comment xml:lang="en">Product with a very long shelf life obtained by melting and emulsifying cheese. Includes products manufactured by heating and emulsifying mixtures of cheese, milkfat, milk protein, milk powder, and water in different amounts. Products may contain other added ingredients, such as aromas, seasonings and fruit, vegetables and/or meat. Product may be spreadable or cut into slices and pieces.1 The term “processed” does not mean cutting, grating, shredding, etc. of cheese. Cheese treated by these mechanical processes are included under food category 01.6.2 (Ripened cheese). </rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#ProcessedComminutedMeat -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#ProcessedComminutedMeat">
+        <rdfs:label xml:lang="en">Processed comminuted meat, poultry and game products</rdfs:label>
+        <rdfs:label xml:lang="ru">Обработанное измельченное мясо, домашняя птица и дичь</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#MeatProducts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#ProcessedFruit -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#ProcessedFruit">
+        <rdfs:label xml:lang="en">Processed fruit</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#Fruit"/>
+        <rdfs:comment xml:lang="en">Includes all forms of processing other than peeling, cutting and surface treating fresh fruit. </rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#ReadyToEatSavouries -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#ReadyToEatSavouries">
+        <rdfs:label xml:lang="en">Ready-to-eat savouries</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#FoodCategory"/>
+        <rdfs:comment xml:lang="en">Includes all types of savoury snack foods. </rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#RennetedMilk -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#RennetedMilk">
+        <rdfs:label xml:lang="en">Renneted milk (plain)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#FermentedRennetedMilkProducts"/>
+        <rdfs:comment xml:lang="en">Plain, coagulated milk produced by the action of milk coagulating enzymes. Includes curdled milk. Flavoured renneted milk products are found in category 01.7.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#RindOfRipenedCheese -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#RindOfRipenedCheese">
+        <rdfs:label xml:lang="en">Rind of ripened cheese</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#RipenedCheese"/>
+        <rdfs:comment xml:lang="en">Refers to the rind only of the cheese.The rind of the cheese is the exterior portion of the cheese mass that initially has the same composition as the interior portion of the cheese, but which may dry after brining and ripening.1</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#RipenedCheese -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#RipenedCheese">
+        <rdfs:label xml:lang="en">Ripened cheese</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#CheeseAndAnalogues"/>
+        <rdfs:comment xml:lang="en">Ripened cheese is not ready for consumption soon after manufacture, but is held under such time and temperature conditions so as to allow the necessary biochemical and physical changes that characterize the specific cheese. For mould-ripened cheese, the ripening is accomplished primarily by the development of characteristic mould growth throughout the interior and/or on the surface of the cheese.1 Ripened cheese may be soft (e.g., camembert), firm (e.g., edam, gouda), hard (e.g., cheddar), or extra-hard. Includes cheese in brine, which is a ripened semi-hard to soft cheese, white to yellowish in colour with a compact texture, and without actual rind that has been preserved in brine until presented to the consumer.2</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#RipenedCheeseIncludesRind -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#RipenedCheeseIncludesRind">
+        <rdfs:label xml:lang="en">Ripened cheese, includes rind</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#RipenedCheese"/>
+        <rdfs:comment xml:lang="en">Refers to ripened (including mould-ripened) cheese, including rind, or any part thereof, such as cut, shredded, grated or sliced cheese. Examples of ripened cheese include: blue cheese, brie, gouda, havarti, hard grating cheese, and Swiss cheese. </rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#SaltsSpicesSoupsSaucesSaladsProteinProducts -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#SaltsSpicesSoupsSaucesSaladsProteinProducts">
+        <rdfs:label xml:lang="en">Salts, spices, soups, sauces, salads and protein products</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#FoodCategory"/>
+        <rdfs:comment xml:lang="en">This is a broad category that includes substances added to food to enhance its aroma and taste (12.1 – salt and salt substitutes; 12.2 – herbs, spices, seasonings and condiments (e.g., seasoning for instant noodles); 12.3 – vinegars; and 12.4 - mustards), certain prepared foods (12.5 – soups and broths; 12.6 – sauces and like products; and 12.7 – salads (e.g., macaroni salad, potato salad) and sandwich spreads, excluding cocoa- and nut-based spreads of food categories 04.2.2.5 and 05.1.3)), and products composed primarily of protein that are derived from soybeans or from other sources (e.g., milk, cereal, or vegetables) (12.9 - soybean-based seasonings and condiments; and 12.10 – protein products other than from soybeans). </rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#SaucesLikeProducts -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#SaucesLikeProducts">
+        <rdfs:label xml:lang="en">Sauces and like products</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#SaltsSpicesSoupsSaucesSaladsProteinProducts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#Sausages -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#Sausages">
+        <rdfs:label xml:lang="en">Sausages</rdfs:label>
+        <rdfs:label xml:lang="ru">Колбасы</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#MeatProducts"/>
+        <owl:deprecated xml:lang="ru">Нестандартизированная категория</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#SeasoningsAndCondiments -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#SeasoningsAndCondiments">
+        <rdfs:label xml:lang="en">Seasonings and condiments</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#HerbsSpicesSeasoningsCondiments"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#SmokedMeatProducts -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#SmokedMeatProducts">
+        <rdfs:label xml:lang="en">Smoked meat products</rdfs:label>
+        <rdfs:label xml:lang="ru">Копченные мясные продукты</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#MeatProducts"/>
+        <owl:deprecated xml:lang="ru">Нестандартизированная категория</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#SodaBreads -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#SodaBreads">
+        <rdfs:label xml:lang="en">Soda breads</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#BreadsAndRolls"/>
+        <rdfs:comment xml:lang="en">Includes soda breads.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#SteamedBreadsAndBuns -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#SteamedBreadsAndBuns">
+        <rdfs:label xml:lang="en">Steamed breads and buns</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#BreadAndOrdinaryBakeryWares"/>
+        <rdfs:comment xml:lang="en">Oriental-style leavened wheat or rice products that are cooked in a steamer. Products may be made with or without filling. In China, products without filling are called steamed bread (mantou), and those with filling are called steamed buns (baozi or bao). Twisted rolls of various shapes (huajuan) may also be prepared.1 Examples include: filled dumplings and steamed bun with meat, jam or other filling (manjyu). </rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#SterilizedUHTWhippedReducedFatCreams -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#SterilizedUHTWhippedReducedFatCreams">
+        <rdfs:label xml:lang="en">Sterilized and UHT creams, whipping and whipped creams, and reduced fat creams (plain)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#CreamAndTheLike"/>
+        <rdfs:comment xml:lang="en">Includes every cream, regardless of fat content, which has undergone a higher heat-treatment than pasteurization. .Also includes pasteurized creams with a reduced fat content, as well as every cream intended for whipping or being whipped. Sterilized cream is subjected to appropriate heat-treatment in the container in which it is presented to the consumer. Ultra-heat treated (UHT) or ultrapasteurized cream is subjected to the appropriate heat treatment (UHT or ultrapasteurization) in a continuous flow process and aseptically packaged. Cream may also be packaged under pressure (whipped cream).1 Includes whipping cream, heavy cream, whipped pasteurized cream, and whipped cream-type dairy toppings and fillings. Creams or toppings with partial or total replacement of milkfat by other fats are included in sub-category 01.4.4 (cream analogues). </rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#Sweeteners -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#Sweeteners">
+        <rdfs:label xml:lang="en">Sweeteners, including honey</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#FoodCategory"/>
+        <rdfs:comment xml:lang="en">Includes all standardized sugars (11.1), non-standardized products (e.g., 11.2, 11.3, 11.4 and 11.6), and natural sweeteners (11.5 – honey). </rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#TableWatersAndSodaWaters -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#TableWatersAndSodaWaters">
+        <rdfs:label xml:lang="en">Table waters and soda waters</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#Waters"/>
+        <rdfs:comment xml:lang="en">Includes waters other than natural source waters that may be carbonated by addition of carbon dioxide and may be processed by filtration, disinfection, or other suitable means. These waters may contain added mineral salts. Carbonated and non-carbonated waters containing flavours are found in category 14.1.4. Examples are table water, bottled water with or without added minerals, purified water, seltzer water, club soda, and sparkling water. </rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#Tallow -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#Tallow">
+        <rdfs:label xml:lang="en">Tallow</rdfs:label>
+        <rdfs:label xml:lang="ru">Сало</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#MeatProducts"/>
+        <owl:deprecated xml:lang="ru">Нестандартизированная категория</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#UnripenedCheese -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#UnripenedCheese">
+        <rdfs:label xml:lang="en">Unripened cheese</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#CheeseAndAnalogues"/>
+        <rdfs:comment xml:lang="en">Unripened cheese, including fresh cheese, is ready for consumption soon after manufacture.1 Examples include cottage cheese (a soft, unripened, coagulated curd cheese), creamed cottage cheese (cottage cheese covered with a creaming mixture),2 cream cheese (rahmfrischkase, an uncured, soft spreadable cheese),3 mozzarella and scamorza cheeses. Includes the whole unripened cheese and unripened cheese rind (for those unripened cheeses with a “skin” such as mozzarella). Most products are plain, however, some, such as cottage cheese and cream cheese, may be flavoured or contain ingredients such as fruit, vegetables or meat. Excludes ripened cream cheese, where cream is a qualifier for a high fat content.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#VegetableNectar -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#VegetableNectar">
+        <rdfs:label xml:lang="en">Vegetable nectar</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#FruitAndVegetableNectars"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#WaterBasedFlavouredDrinks -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#WaterBasedFlavouredDrinks">
+        <rdfs:label xml:lang="en">Water-based flavoured drinks</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#NonAlcoholicBeverages"/>
+        <rdfs:comment xml:lang="en">Water-based flavoured drinks, including &quot;sport&quot;, &quot;energy&quot; or &quot;electrolyte&quot; drinks and particulated drinks</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#Waters -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#Waters">
+        <rdfs:label xml:lang="en">Waters</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#NonAlcoholicBeverages"/>
+        <rdfs:comment xml:lang="en">Includes natural waters (14.1.1.1) and other bottled waters (14.1.1.2), each of which may be non-carbonated or carbonated. </rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#WheyAndWheyProductsExcludingWheyCheeses -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#WheyAndWheyProductsExcludingWheyCheeses">
+        <rdfs:label xml:lang="en">Whey and whey products, excluding whey cheeses</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#DairyProducts"/>
+        <rdfs:comment xml:lang="en">Includes a variety of whey-based products in liquid and powdered forms. </rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#WheyCheese -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#WheyCheese">
+        <rdfs:label xml:lang="en">Whey cheese</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#CheeseAndAnalogues"/>
+        <rdfs:comment xml:lang="en">A solid or semi-solid product obtained by concentration of whey with or without the addition of milk, cream or other materials of milk origin, and moulding of the concentrated product.1 Includes the whole cheese and the rind of the cheese. Different from whey protein cheese (01.6.6). </rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#WheyProteinCheese -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#WheyProteinCheese">
+        <rdfs:label xml:lang="en">Whey protein cheese</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#CheeseAndAnalogues"/>
+        <rdfs:comment xml:lang="en">Product containing the protein extracted from the whey component of milk. These products are principally made by coagulation of whey proteins.1 Example: ricotta cheese. Different from whey cheese (01.6.3). </rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#WholeBrokenOrFlakedGrain -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#WholeBrokenOrFlakedGrain">
+        <rdfs:label xml:lang="en">Whole, broken or flaked grain, including rice</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#CerealProducts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/foodontology#YeastLeavenedBreadsAndSpecialtyBreads -->
+
+    <owl:Class rdf:about="http://purl.org/foodontology#YeastLeavenedBreadsAndSpecialtyBreads">
+        <rdfs:label xml:lang="en">Yeast-leavened breads and specialty breads</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/foodontology#BreadsAndRolls"/>
+        <rdfs:comment xml:lang="en">Includes all types of non-sweet bakery products and bread-derived products.Examples include: white bread, rye bread, pumpernickel bread, raisin bread, whole wheat bread, pain courant francais, malt bread, hamburger rolls, whole wheat rolls, and milk rolls. </rdfs:comment>
+    </owl:Class>
 
 
     <!-- 
@@ -1299,6 +2183,7 @@
 
     <owl:NamedIndividual rdf:about="http://purl.org/foodontology#E1400">
         <rdf:type rdf:resource="http://purl.org/foodontology#E-additive"/>
+        <rdfs:label xml:lang="en">E1400</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -6190,19 +7075,19 @@
     <rdf:Description>
         <rdf:type rdf:resource="&owl;AllDisjointProperties"/>
         <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://purl.org/foodontology#carbohydratesPer100g"/>
-            <rdf:Description rdf:about="http://purl.org/foodontology#energyPer100g"/>
-            <rdf:Description rdf:about="http://purl.org/foodontology#fatPer100g"/>
-            <rdf:Description rdf:about="http://purl.org/foodontology#proteinsPer100g"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#carbohydratesPer100gAsDouble"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#energyPer100gAsDouble"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#fatPer100gAsDouble"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#proteinsPer100gAsDouble"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>
         <rdf:type rdf:resource="&owl;AllDisjointProperties"/>
         <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://purl.org/foodontology#carbohydratesPer100gAsDouble"/>
-            <rdf:Description rdf:about="http://purl.org/foodontology#energyPer100gAsDouble"/>
-            <rdf:Description rdf:about="http://purl.org/foodontology#fatPer100gAsDouble"/>
-            <rdf:Description rdf:about="http://purl.org/foodontology#proteinsPer100gAsDouble"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#carbohydratesPer100g"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#energyPer100g"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#fatPer100g"/>
+            <rdf:Description rdf:about="http://purl.org/foodontology#proteinsPer100g"/>
         </owl:members>
     </rdf:Description>
 </rdf:RDF>
