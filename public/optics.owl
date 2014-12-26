@@ -110,6 +110,15 @@
     
 
 
+    <!-- http://www.owl-ontologies.com/Optics.owl#author -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Optics.owl#author">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Ontology1301310099.owl#ScientificTheory"/>
+        <rdfs:range rdf:resource="&rdfs;Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://www.owl-ontologies.com/Optics.owl#name -->
 
     <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Optics.owl#name">
