@@ -7,7 +7,6 @@
     <!ENTITY swrlb "http://www.w3.org/2003/11/swrlb#" >
     <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
     <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
-    <!ENTITY Optics "http://www.owl-ontologies.com/Optics.owl#" >
     <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
     <!ENTITY protege "http://protege.stanford.edu/plugins/owl/protege#" >
     <!ENTITY xsp "http://www.owl-ontologies.com/2005/08/07/xsp.owl#" >
@@ -23,7 +22,6 @@
      xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
      xmlns:swrl="http://www.w3.org/2003/11/swrl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:Optics="http://www.owl-ontologies.com/Optics.owl#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <owl:Ontology rdf:about="http://www.owl-ontologies.com/Optics.owl"/>
     
@@ -114,7 +112,10 @@
 
     <!-- http://www.owl-ontologies.com/Optics.owl#name -->
 
-    <owl:DatatypeProperty rdf:about="&Optics;name"/>
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Optics.owl#name">
+        <rdfs:range rdf:resource="&rdfs;Literal"/>
+        <rdfs:domain rdf:resource="&owl;Thing"/>
+    </owl:DatatypeProperty>
     
 
 
@@ -1010,7 +1011,6 @@
     <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1301310099.owl#Intensity">
         <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1301310099.owl#Parameter"/>
         <rdfs:label xml:lang="ru">Интенсивность</rdfs:label>
-        <Optics:name xml:lang="ru">Интенсивность</Optics:name>
     </owl:NamedIndividual>
     
 
