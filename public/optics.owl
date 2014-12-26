@@ -7,6 +7,7 @@
     <!ENTITY swrlb "http://www.w3.org/2003/11/swrlb#" >
     <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
     <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY Optics "http://www.owl-ontologies.com/Optics.owl#" >
     <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
     <!ENTITY protege "http://protege.stanford.edu/plugins/owl/protege#" >
     <!ENTITY xsp "http://www.owl-ontologies.com/2005/08/07/xsp.owl#" >
@@ -22,6 +23,7 @@
      xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
      xmlns:swrl="http://www.w3.org/2003/11/swrl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:Optics="http://www.owl-ontologies.com/Optics.owl#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <owl:Ontology rdf:about="http://www.owl-ontologies.com/Optics.owl"/>
     
@@ -112,7 +114,7 @@
 
     <!-- http://www.owl-ontologies.com/Optics.owl#author -->
 
-    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Optics.owl#author">
+    <owl:DatatypeProperty rdf:about="&Optics;author">
         <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Ontology1301310099.owl#ScientificTheory"/>
         <rdfs:range rdf:resource="&rdfs;Literal"/>
     </owl:DatatypeProperty>
@@ -121,9 +123,18 @@
 
     <!-- http://www.owl-ontologies.com/Optics.owl#name -->
 
-    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Optics.owl#name">
+    <owl:DatatypeProperty rdf:about="&Optics;name">
         <rdfs:range rdf:resource="&rdfs;Literal"/>
         <rdfs:domain rdf:resource="&owl;Thing"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Optics.owl#param1 -->
+
+    <owl:DatatypeProperty rdf:about="&Optics;param1">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Ontology1301310099.owl#PolarisationPrism"/>
+        <rdfs:range rdf:resource="&xsd;integer"/>
     </owl:DatatypeProperty>
     
 
@@ -1096,6 +1107,33 @@
     
 
 
+    <!-- http://www.owl-ontologies.com/Optics.owl#Prism_1 -->
+
+    <owl:NamedIndividual rdf:about="&Optics;Prism_1">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1301310099.owl#NicolePrism"/>
+        <Optics:param1 rdf:datatype="&xsd;integer">10</Optics:param1>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Optics.owl#Prism_2 -->
+
+    <owl:NamedIndividual rdf:about="&Optics;Prism_2">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1301310099.owl#RoshonsPrism"/>
+        <Optics:param1 rdf:datatype="&xsd;integer">30</Optics:param1>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Optics.owl#Prism_3 -->
+
+    <owl:NamedIndividual rdf:about="&Optics;Prism_3">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1301310099.owl#VollastonesPrism"/>
+        <Optics:param1 rdf:datatype="&xsd;integer">20</Optics:param1>
+    </owl:NamedIndividual>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -1107,9 +1145,24 @@
     <rdf:Description>
         <rdf:type rdf:resource="&owl;AllDifferent"/>
         <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1301310099.owl#ManyBeamsInterference"/>
+            <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1301310099.owl#TwoBeamsInterference"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
             <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1301310099.owl#FrenselApertureDifraction"/>
             <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1301310099.owl#FrenselDiskDifraction"/>
             <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1301310099.owl#FrenselSemiplaneDifraction"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1301310099.owl#InductedAnisotropy"/>
+            <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1301310099.owl#NaturalAnisotropy"/>
+            <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1301310099.owl#Photoelasticity"/>
         </owl:distinctMembers>
     </rdf:Description>
     <rdf:Description>
@@ -1122,8 +1175,7 @@
     <rdf:Description>
         <rdf:type rdf:resource="&owl;AllDifferent"/>
         <owl:distinctMembers rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1301310099.owl#ManyBeamsInterference"/>
-            <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1301310099.owl#TwoBeamsInterference"/>
+            <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1301310099.owl#PolarizationDegree"/>
         </owl:distinctMembers>
     </rdf:Description>
     <rdf:Description>
@@ -1132,20 +1184,6 @@
             <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1301310099.owl#FraunhoferApertureDifraction"/>
             <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1301310099.owl#FraunhoferRegularStructureDiffraction"/>
             <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1301310099.owl#FraunhoferSlitDifraction"/>
-        </owl:distinctMembers>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="&owl;AllDifferent"/>
-        <owl:distinctMembers rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1301310099.owl#PolarizationDegree"/>
-        </owl:distinctMembers>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="&owl;AllDifferent"/>
-        <owl:distinctMembers rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1301310099.owl#InductedAnisotropy"/>
-            <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1301310099.owl#NaturalAnisotropy"/>
-            <rdf:Description rdf:about="http://www.owl-ontologies.com/Ontology1301310099.owl#Photoelasticity"/>
         </owl:distinctMembers>
     </rdf:Description>
 </rdf:RDF>
