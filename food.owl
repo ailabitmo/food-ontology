@@ -28,7 +28,7 @@
 		<dc:date rdf:datatype="&xsd;date">2015-02-26</dc:date>
 		<rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Food Ontology is an extension of GoodsRelations Ontology [GoodsRelations] created to represent food and food products. Food Ontology describes food products and provides information on ingredients, additives, nutrition facts and other food-specific facts.</rdfs:comment>
         <vann:preferredNamespaceUri rdf:datatype="&xsd;anyURI">http://purl.org/foodontology#</vann:preferredNamespaceUri>
-		<owl:versionInfo>1.0.0</owl:versionInfo>
+		<owl:versionInfo>0.0.9</owl:versionInfo>
 	    <dc:creator>Maxim Kolchin, ITMO University</dc:creator>
 	    <dc:creator>Maxim Lapaev, ITMO University</dc:creator>
 		<dc:creator>Rezeda Khaidarova, ITMO University</dc:creator>
@@ -36,7 +36,7 @@
 		<dc:creator>Olga Parkhimovich, ITMO University</dc:creator>
         <foaf:maker rdf:datatype="&xsd;anyURI">http://twitter.com/Kolchinmax</foaf:maker>
         <vann:preferredNamespacePrefix>food</vann:preferredNamespacePrefix>
-        <owl:versionIRI rdf:resource="http://purl.org/foodontology/1.0.0"/>
+        <owl:versionIRI rdf:resource="http://purl.org/foodontology/0.0.9"/>
         <owl:imports rdf:resource="http://purl.org/goodrelations/v1"/>
 		<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Food Ontology is an ontology created for food and food products particularly which is being developed for MneMojno project to structure its knowledge base of food products and to interlink with other datasets (such as DBPedia) in future. The motivation for building a new ontology is the lack of reusable, non-toy ontology for food product domain. The ontology extends the most powerful ontology for describing all of the details of products and services GoodsRelations ontology, here in after referred to as the core ontology. Below, we give an overview of the relevant conceptual entities and types of relationships that extend the core ontology for food product domain.</dc:description>
     </owl:Ontology>
