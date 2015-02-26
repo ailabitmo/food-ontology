@@ -125,8 +125,8 @@
     <!-- http://purl.org/foodontology#carbohydratesPer100gAsDouble -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/foodontology#carbohydratesPer100gAsDouble">
-        <rdfs:label xml:lang="en">carbohydrates per 100 g.</rdfs:label>
-        <rdfs:label xml:lang="ru">углеводов в 100 г.</rdfs:label>
+        <rdfs:label xml:lang="en">carbohydrates per 100 g</rdfs:label>
+        <rdfs:label xml:lang="ru">углеводов в 100 г</rdfs:label>
         <rdfs:domain rdf:resource="http://purl.org/foodontology#Food"/>
         <rdfs:seeAlso rdf:resource="http://purl.org/foodontology#carbohydratesPer100g"/>
         <rdfs:subPropertyOf rdf:resource="http://purl.org/goodrelations/v1#datatypeProductOrServiceProperty"/>
@@ -152,8 +152,8 @@
     <!-- http://purl.org/foodontology#energyPer100gAsDouble -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/foodontology#energyPer100gAsDouble">
-        <rdfs:label xml:lang="en">energy per 100 g.</rdfs:label>
-        <rdfs:label xml:lang="ru">энергетическая ценность в 100 г.</rdfs:label>
+        <rdfs:label xml:lang="en">energy per 100 g</rdfs:label>
+        <rdfs:label xml:lang="ru">энергетическая ценность в 100 г</rdfs:label>
         <rdfs:domain rdf:resource="http://purl.org/foodontology#Food"/>
         <rdfs:seeAlso rdf:resource="http://purl.org/foodontology#energyPer100g"/>
         <rdfs:subPropertyOf rdf:resource="http://purl.org/goodrelations/v1#datatypeProductOrServiceProperty"/>
@@ -165,8 +165,8 @@
     <!-- http://purl.org/foodontology#fatPer100gAsDouble -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/foodontology#fatPer100gAsDouble">
-        <rdfs:label xml:lang="en">fat per 100 g.</rdfs:label>
-        <rdfs:label xml:lang="ru">жира в 100 г.</rdfs:label>
+        <rdfs:label xml:lang="en">fat per 100 g</rdfs:label>
+        <rdfs:label xml:lang="ru">жира в 100 г</rdfs:label>
         <rdfs:domain rdf:resource="http://purl.org/foodontology#Food"/>
         <rdfs:seeAlso rdf:resource="http://purl.org/foodontology#fatPer100g"/>
         <rdfs:subPropertyOf rdf:resource="http://purl.org/goodrelations/v1#datatypeProductOrServiceProperty"/>
@@ -187,8 +187,8 @@
     <!-- http://purl.org/foodontology#proteinsPer100gAsDouble -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/foodontology#proteinsPer100gAsDouble">
-        <rdfs:label xml:lang="en">proteins per 100 g.</rdfs:label>
-        <rdfs:label xml:lang="ru">белков в 100 г.</rdfs:label>
+        <rdfs:label xml:lang="en">proteins per 100 g</rdfs:label>
+        <rdfs:label xml:lang="ru">белков в 100 г</rdfs:label>
         <rdfs:domain rdf:resource="http://purl.org/foodontology#Food"/>
         <rdfs:seeAlso rdf:resource="http://purl.org/foodontology#proteinsPer100g"/>
         <rdfs:subPropertyOf rdf:resource="http://purl.org/goodrelations/v1#datatypeProductOrServiceProperty"/>
