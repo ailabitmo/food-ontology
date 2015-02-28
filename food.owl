@@ -25,7 +25,7 @@
 	    <dc:title xml:lang="en">The FoodOntology Vocabulary for Food Products Description</dc:title>
         <rdfs:label xml:lang="en">Food Ontology</rdfs:label>
         <rdfs:label xml:lang="ru">Онтология еды и продуктов питания</rdfs:label>
-		<dc:date rdf:datatype="&xsd;date">2015-02-26</dc:date>
+		<dc:date rdf:datatype="&xsd;date">2015-02-28</dc:date>
 		<rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Food Ontology is an extension of GoodsRelations Ontology [GoodsRelations] created to represent food and food products. Food Ontology describes food products and provides information on ingredients, additives, nutrition facts and other food-specific facts.</rdfs:comment>
         <vann:preferredNamespaceUri rdf:datatype="&xsd;anyURI">http://purl.org/foodontology#</vann:preferredNamespaceUri>
 		<owl:versionInfo>0.0.9</owl:versionInfo>
