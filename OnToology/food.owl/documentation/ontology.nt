@@ -1,0 +1,219 @@
+<http://purl.org/foodontology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://purl.org/foodontology> <http://www.w3.org/2002/07/owl#versionIRI> <http://purl.org/foodontology/0.0.9> .
+<http://purl.org/foodontology> <http://www.w3.org/2002/07/owl#imports> <http://purl.org/goodrelations/v1> .
+<http://purl.org/foodontology> <http://purl.org/dc/elements/1.1/creator> "Alexander Chistyakov, ITMO University" .
+<http://purl.org/foodontology> <http://purl.org/dc/elements/1.1/creator> "Maxim Kolchin, ITMO University" .
+<http://purl.org/foodontology> <http://purl.org/dc/elements/1.1/creator> "Maxim Lapaev, ITMO University" .
+<http://purl.org/foodontology> <http://purl.org/dc/elements/1.1/creator> "Olga Parkhimovich, ITMO University" .
+<http://purl.org/foodontology> <http://purl.org/dc/elements/1.1/creator> "Rezeda Khaidarova, ITMO University" .
+<http://purl.org/foodontology> <http://purl.org/dc/elements/1.1/description> "Food Ontology is an ontology created for food and food products particularly which is being developed for MneMojno project to structure its knowledge base of food products and to interlink with other datasets (such as DBPedia) in future. The motivation for building a new ontology is the lack of reusable, non-toy ontology for food product domain. The ontology extends the most powerful ontology for describing all of the details of products and services GoodsRelations ontology, here in after referred to as the core ontology. Below, we give an overview of the relevant conceptual entities and types of relationships that extend the core ontology for food product domain." .
+<http://purl.org/foodontology> <http://purl.org/dc/elements/1.1/title> "The FoodOntology Vocabulary for Food Products Description"@en .
+<http://purl.org/foodontology> <http://purl.org/vocab/vann/preferredNamespacePrefix> "food" .
+<http://purl.org/foodontology> <http://purl.org/vocab/vann/preferredNamespaceUri> "http://purl.org/foodontology#"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/foodontology> <http://www.w3.org/2000/01/rdf-schema#comment> "The Food Ontology is an extension of GoodsRelations Ontology [GoodsRelations] created to represent food and food products. Food Ontology describes food products and provides information on ingredients, additives, nutrition facts and other food-specific facts." .
+<http://purl.org/foodontology> <http://www.w3.org/2000/01/rdf-schema#label> "Food Ontology"@en .
+<http://purl.org/foodontology> <http://www.w3.org/2000/01/rdf-schema#label> "Онтология еды и продуктов питания"@ru .
+<http://purl.org/foodontology> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.9" .
+<http://purl.org/foodontology> <http://xmlns.com/foaf/0.1/maker> "http://twitter.com/Kolchinmax"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/dc/elements/1.1/description
+<http://purl.org/dc/elements/1.1/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/vocab/vann/preferredNamespacePrefix
+<http://purl.org/vocab/vann/preferredNamespacePrefix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/vocab/vann/preferredNamespaceUri
+<http://purl.org/vocab/vann/preferredNamespaceUri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://xmlns.com/foaf/0.1/maker
+<http://xmlns.com/foaf/0.1/maker> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/foodontology#carbohydratesPer100g
+<http://purl.org/foodontology#carbohydratesPer100g> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/foodontology#carbohydratesPer100g> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/goodrelations/v1#quantitativeProductOrServiceProperty> .
+<http://purl.org/foodontology#carbohydratesPer100g> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/foodontology#Food> .
+<http://purl.org/foodontology#carbohydratesPer100g> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/goodrelations/v1#QuantitativeValueFloat> .
+# 
+# http://purl.org/foodontology#containsIngredient
+<http://purl.org/foodontology#containsIngredient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/foodontology#containsIngredient> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/foodontology#Food> .
+<http://purl.org/foodontology#containsIngredient> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/foodontology#Ingredient> .
+<http://purl.org/foodontology#containsIngredient> <http://www.w3.org/2000/01/rdf-schema#comment> "contains ingredient"@en .
+<http://purl.org/foodontology#containsIngredient> <http://www.w3.org/2000/01/rdf-schema#comment> "содержит ингредиент"@ru .
+# 
+# http://purl.org/foodontology#energyPer100g
+<http://purl.org/foodontology#energyPer100g> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/foodontology#energyPer100g> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/goodrelations/v1#quantitativeProductOrServiceProperty> .
+<http://purl.org/foodontology#energyPer100g> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/foodontology#Food> .
+<http://purl.org/foodontology#energyPer100g> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/goodrelations/v1#QuantitativeValueFloat> .
+# 
+# http://purl.org/foodontology#fatPer100g
+<http://purl.org/foodontology#fatPer100g> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/foodontology#fatPer100g> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/goodrelations/v1#quantitativeProductOrServiceProperty> .
+<http://purl.org/foodontology#fatPer100g> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/foodontology#Food> .
+<http://purl.org/foodontology#fatPer100g> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/goodrelations/v1#QuantitativeValueFloat> .
+# 
+# http://purl.org/foodontology#proteinsPer100g
+<http://purl.org/foodontology#proteinsPer100g> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/foodontology#proteinsPer100g> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/goodrelations/v1#quantitativeProductOrServiceProperty> .
+<http://purl.org/foodontology#proteinsPer100g> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/foodontology#Food> .
+<http://purl.org/foodontology#proteinsPer100g> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/goodrelations/v1#QuantitativeValueFloat> .
+# 
+# http://purl.org/goodrelations/v1#quantitativeProductOrServiceProperty
+<http://purl.org/goodrelations/v1#quantitativeProductOrServiceProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/foodontology#carbohydratesPer100gAsDouble
+<http://purl.org/foodontology#carbohydratesPer100gAsDouble> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/foodontology#carbohydratesPer100gAsDouble> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/goodrelations/v1#datatypeProductOrServiceProperty> .
+<http://purl.org/foodontology#carbohydratesPer100gAsDouble> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/foodontology#Food> .
+<http://purl.org/foodontology#carbohydratesPer100gAsDouble> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
+<http://purl.org/foodontology#carbohydratesPer100gAsDouble> <http://www.w3.org/2000/01/rdf-schema#label> "carbohydrates per 100 g"@en .
+<http://purl.org/foodontology#carbohydratesPer100gAsDouble> <http://www.w3.org/2000/01/rdf-schema#label> "углеводов в 100 г"@ru .
+<http://purl.org/foodontology#carbohydratesPer100gAsDouble> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://purl.org/foodontology#carbohydratesPer100g> .
+# 
+# http://purl.org/foodontology#containsGMO
+<http://purl.org/foodontology#containsGMO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/foodontology#containsGMO> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/goodrelations/v1#datatypeProductOrServiceProperty> .
+<http://purl.org/foodontology#containsGMO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://purl.org/foodontology#containsGMO> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/foodontology#Food> .
+<http://purl.org/foodontology#containsGMO> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<http://purl.org/foodontology#containsGMO> <http://www.w3.org/2000/01/rdf-schema#label> "contains a GMO"@en .
+<http://purl.org/foodontology#containsGMO> <http://www.w3.org/2000/01/rdf-schema#label> "содержит ГМО"@ru .
+<http://purl.org/foodontology#containsGMO> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://en.wikipedia.org/wiki/Genetically_modified_organism"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+# 
+# http://purl.org/foodontology#energyPer100gAsDouble
+<http://purl.org/foodontology#energyPer100gAsDouble> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/foodontology#energyPer100gAsDouble> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/goodrelations/v1#datatypeProductOrServiceProperty> .
+<http://purl.org/foodontology#energyPer100gAsDouble> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/foodontology#Food> .
+<http://purl.org/foodontology#energyPer100gAsDouble> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
+<http://purl.org/foodontology#energyPer100gAsDouble> <http://www.w3.org/2000/01/rdf-schema#label> "energy per 100 g"@en .
+<http://purl.org/foodontology#energyPer100gAsDouble> <http://www.w3.org/2000/01/rdf-schema#label> "энергетическая ценность в 100 г"@ru .
+<http://purl.org/foodontology#energyPer100gAsDouble> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://purl.org/foodontology#energyPer100g> .
+# 
+# http://purl.org/foodontology#fatPer100gAsDouble
+<http://purl.org/foodontology#fatPer100gAsDouble> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/foodontology#fatPer100gAsDouble> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/goodrelations/v1#datatypeProductOrServiceProperty> .
+<http://purl.org/foodontology#fatPer100gAsDouble> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/foodontology#Food> .
+<http://purl.org/foodontology#fatPer100gAsDouble> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
+<http://purl.org/foodontology#fatPer100gAsDouble> <http://www.w3.org/2000/01/rdf-schema#label> "fat per 100 g"@en .
+<http://purl.org/foodontology#fatPer100gAsDouble> <http://www.w3.org/2000/01/rdf-schema#label> "жира в 100 г"@ru .
+<http://purl.org/foodontology#fatPer100gAsDouble> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://purl.org/foodontology#fatPer100g> .
+# 
+# http://purl.org/foodontology#ingredientsListAsText
+<http://purl.org/foodontology#ingredientsListAsText> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/foodontology#ingredientsListAsText> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/foodontology#Food> .
+<http://purl.org/foodontology#ingredientsListAsText> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://purl.org/foodontology#proteinsPer100gAsDouble
+<http://purl.org/foodontology#proteinsPer100gAsDouble> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/foodontology#proteinsPer100gAsDouble> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/goodrelations/v1#datatypeProductOrServiceProperty> .
+<http://purl.org/foodontology#proteinsPer100gAsDouble> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/foodontology#Food> .
+<http://purl.org/foodontology#proteinsPer100gAsDouble> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
+<http://purl.org/foodontology#proteinsPer100gAsDouble> <http://www.w3.org/2000/01/rdf-schema#label> "proteins per 100 g"@en .
+<http://purl.org/foodontology#proteinsPer100gAsDouble> <http://www.w3.org/2000/01/rdf-schema#label> "белков в 100 г"@ru .
+<http://purl.org/foodontology#proteinsPer100gAsDouble> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://purl.org/foodontology#proteinsPer100g> .
+# 
+# http://purl.org/goodrelations/v1#datatypeProductOrServiceProperty
+<http://purl.org/goodrelations/v1#datatypeProductOrServiceProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/foodontology#Food
+<http://purl.org/foodontology#Food> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/foodontology#Food> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/goodrelations/v1#ProductOrService> .
+<http://purl.org/foodontology#Food> <http://www.w3.org/2000/01/rdf-schema#label> "Food"@en .
+<http://purl.org/foodontology#Food> <http://www.w3.org/2000/01/rdf-schema#label> "Продукт пищевой"@ru .
+<http://purl.org/foodontology#Food> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://en.wikipedia.org/wiki/Food"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+# 
+# http://purl.org/foodontology#FoodAdditive
+<http://purl.org/foodontology#FoodAdditive> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/foodontology#FoodAdditive> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/foodontology#Ingredient> .
+<http://purl.org/foodontology#FoodAdditive> <http://www.w3.org/2000/01/rdf-schema#label> "Food additive"@en .
+<http://purl.org/foodontology#FoodAdditive> <http://www.w3.org/2000/01/rdf-schema#label> "Пищевая добавка"@ru .
+<http://purl.org/foodontology#FoodAdditive> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://en.wikipedia.org/wiki/Food_additive"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+# 
+# http://purl.org/foodontology#Ingredient
+<http://purl.org/foodontology#Ingredient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/foodontology#Ingredient> <http://www.w3.org/2000/01/rdf-schema#label> "Ingredient"@en .
+<http://purl.org/foodontology#Ingredient> <http://www.w3.org/2000/01/rdf-schema#label> "Ингредиент"@ru .
+<http://purl.org/foodontology#Ingredient> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://en.wikipedia.org/wiki/Ingredient"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+# 
+# http://purl.org/goodrelations/v1#ProductOrService
+<http://purl.org/goodrelations/v1#ProductOrService> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.org/goodrelations/v1#QuantitativeValueFloat
+<http://purl.org/goodrelations/v1#QuantitativeValueFloat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    General axioms
+# #
+# #################################################################
+# 
+# 
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointProperties> .
+_:genid1 <http://www.w3.org/2002/07/owl#members> _:genid5 .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/foodontology#carbohydratesPer100g> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid4 .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/foodontology#energyPer100g> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid3 .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/foodontology#fatPer100g> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid2 .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/foodontology#proteinsPer100g> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+# 
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointProperties> .
+_:genid6 <http://www.w3.org/2002/07/owl#members> _:genid10 .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/foodontology#carbohydratesPer100gAsDouble> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid9 .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/foodontology#energyPer100gAsDouble> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid8 .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/foodontology#fatPer100gAsDouble> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid7 .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/foodontology#proteinsPer100gAsDouble> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+# 
+# Generated by the OWL API (version 5.1.9) https://github.com/owlcs/owlapi/

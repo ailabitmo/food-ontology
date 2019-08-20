@@ -1,0 +1,336 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointProperties" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://purl.org/foodontology#carbohydratesPer100g"
+    }, {
+      "@id" : "http://purl.org/foodontology#energyPer100g"
+    }, {
+      "@id" : "http://purl.org/foodontology#fatPer100g"
+    }, {
+      "@id" : "http://purl.org/foodontology#proteinsPer100g"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointProperties" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://purl.org/foodontology#carbohydratesPer100gAsDouble"
+    }, {
+      "@id" : "http://purl.org/foodontology#energyPer100gAsDouble"
+    }, {
+      "@id" : "http://purl.org/foodontology#fatPer100gAsDouble"
+    }, {
+      "@id" : "http://purl.org/foodontology#proteinsPer100gAsDouble"
+    } ]
+  } ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/foodontology",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://purl.org/dc/elements/1.1/creator" : [ {
+    "@value" : "Alexander Chistyakov, ITMO University"
+  }, {
+    "@value" : "Maxim Kolchin, ITMO University"
+  }, {
+    "@value" : "Maxim Lapaev, ITMO University"
+  }, {
+    "@value" : "Olga Parkhimovich, ITMO University"
+  }, {
+    "@value" : "Rezeda Khaidarova, ITMO University"
+  } ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@value" : "Food Ontology is an ontology created for food and food products particularly which is being developed for MneMojno project to structure its knowledge base of food products and to interlink with other datasets (such as DBPedia) in future. The motivation for building a new ontology is the lack of reusable, non-toy ontology for food product domain. The ontology extends the most powerful ontology for describing all of the details of products and services GoodsRelations ontology, here in after referred to as the core ontology. Below, we give an overview of the relevant conceptual entities and types of relationships that extend the core ontology for food product domain."
+  } ],
+  "http://purl.org/dc/elements/1.1/title" : [ {
+    "@language" : "en",
+    "@value" : "The FoodOntology Vocabulary for Food Products Description"
+  } ],
+  "http://purl.org/vocab/vann/preferredNamespacePrefix" : [ {
+    "@value" : "food"
+  } ],
+  "http://purl.org/vocab/vann/preferredNamespaceUri" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.org/foodontology#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The Food Ontology is an extension of GoodsRelations Ontology [GoodsRelations] created to represent food and food products. Food Ontology describes food products and provides information on ingredients, additives, nutrition facts and other food-specific facts."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Food Ontology"
+  }, {
+    "@language" : "ru",
+    "@value" : "Онтология еды и продуктов питания"
+  } ],
+  "http://www.w3.org/2002/07/owl#imports" : [ {
+    "@id" : "http://purl.org/goodrelations/v1"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionIRI" : [ {
+    "@id" : "http://purl.org/foodontology/0.0.9"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@value" : "0.0.9"
+  } ],
+  "http://xmlns.com/foaf/0.1/maker" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://twitter.com/Kolchinmax"
+  } ]
+}, {
+  "@id" : "http://purl.org/foodontology#Food",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Food"
+  }, {
+    "@language" : "ru",
+    "@value" : "Продукт пищевой"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://en.wikipedia.org/wiki/Food"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.org/goodrelations/v1#ProductOrService"
+  } ]
+}, {
+  "@id" : "http://purl.org/foodontology#FoodAdditive",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Food additive"
+  }, {
+    "@language" : "ru",
+    "@value" : "Пищевая добавка"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://en.wikipedia.org/wiki/Food_additive"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.org/foodontology#Ingredient"
+  } ]
+}, {
+  "@id" : "http://purl.org/foodontology#Ingredient",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Ingredient"
+  }, {
+    "@language" : "ru",
+    "@value" : "Ингредиент"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://en.wikipedia.org/wiki/Ingredient"
+  } ]
+}, {
+  "@id" : "http://purl.org/foodontology#carbohydratesPer100g",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://purl.org/foodontology#Food"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://purl.org/goodrelations/v1#QuantitativeValueFloat"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://purl.org/goodrelations/v1#quantitativeProductOrServiceProperty"
+  } ]
+}, {
+  "@id" : "http://purl.org/foodontology#carbohydratesPer100gAsDouble",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://purl.org/foodontology#Food"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "carbohydrates per 100 g"
+  }, {
+    "@language" : "ru",
+    "@value" : "углеводов в 100 г"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#double"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@id" : "http://purl.org/foodontology#carbohydratesPer100g"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://purl.org/goodrelations/v1#datatypeProductOrServiceProperty"
+  } ]
+}, {
+  "@id" : "http://purl.org/foodontology#containsGMO",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://purl.org/foodontology#Food"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "contains a GMO"
+  }, {
+    "@language" : "ru",
+    "@value" : "содержит ГМО"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://en.wikipedia.org/wiki/Genetically_modified_organism"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://purl.org/goodrelations/v1#datatypeProductOrServiceProperty"
+  } ]
+}, {
+  "@id" : "http://purl.org/foodontology#containsIngredient",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "contains ingredient"
+  }, {
+    "@language" : "ru",
+    "@value" : "содержит ингредиент"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://purl.org/foodontology#Food"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://purl.org/foodontology#Ingredient"
+  } ]
+}, {
+  "@id" : "http://purl.org/foodontology#energyPer100g",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://purl.org/foodontology#Food"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://purl.org/goodrelations/v1#QuantitativeValueFloat"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://purl.org/goodrelations/v1#quantitativeProductOrServiceProperty"
+  } ]
+}, {
+  "@id" : "http://purl.org/foodontology#energyPer100gAsDouble",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://purl.org/foodontology#Food"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "energy per 100 g"
+  }, {
+    "@language" : "ru",
+    "@value" : "энергетическая ценность в 100 г"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#double"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@id" : "http://purl.org/foodontology#energyPer100g"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://purl.org/goodrelations/v1#datatypeProductOrServiceProperty"
+  } ]
+}, {
+  "@id" : "http://purl.org/foodontology#fatPer100g",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://purl.org/foodontology#Food"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://purl.org/goodrelations/v1#QuantitativeValueFloat"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://purl.org/goodrelations/v1#quantitativeProductOrServiceProperty"
+  } ]
+}, {
+  "@id" : "http://purl.org/foodontology#fatPer100gAsDouble",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://purl.org/foodontology#Food"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "fat per 100 g"
+  }, {
+    "@language" : "ru",
+    "@value" : "жира в 100 г"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#double"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@id" : "http://purl.org/foodontology#fatPer100g"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://purl.org/goodrelations/v1#datatypeProductOrServiceProperty"
+  } ]
+}, {
+  "@id" : "http://purl.org/foodontology#ingredientsListAsText",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://purl.org/foodontology#Food"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "http://purl.org/foodontology#proteinsPer100g",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://purl.org/foodontology#Food"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://purl.org/goodrelations/v1#QuantitativeValueFloat"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://purl.org/goodrelations/v1#quantitativeProductOrServiceProperty"
+  } ]
+}, {
+  "@id" : "http://purl.org/foodontology#proteinsPer100gAsDouble",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://purl.org/foodontology#Food"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "proteins per 100 g"
+  }, {
+    "@language" : "ru",
+    "@value" : "белков в 100 г"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#double"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@id" : "http://purl.org/foodontology#proteinsPer100g"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://purl.org/goodrelations/v1#datatypeProductOrServiceProperty"
+  } ]
+}, {
+  "@id" : "http://purl.org/goodrelations/v1#ProductOrService",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.org/goodrelations/v1#QuantitativeValueFloat",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.org/goodrelations/v1#datatypeProductOrServiceProperty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+}, {
+  "@id" : "http://purl.org/goodrelations/v1#quantitativeProductOrServiceProperty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://purl.org/vocab/vann/preferredNamespacePrefix",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/vocab/vann/preferredNamespaceUri",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/maker",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+} ]
