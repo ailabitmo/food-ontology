@@ -1,0 +1,104 @@
+{
+  "@context" : {
+    "ProductOrService" : {
+      "@id" : "http://purl.org/goodrelations/v1#ProductOrService"
+    },
+    "versionInfo" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
+    },
+    "QuantitativeValueFloat" : {
+      "@id" : "http://purl.org/goodrelations/v1#QuantitativeValueFloat"
+    },
+    "fatPer100gAsDouble" : {
+      "@id" : "http://purl.org/foodontology#fatPer100gAsDouble",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "Food" : {
+      "@id" : "http://purl.org/foodontology#Food"
+    },
+    "quantitativeProductOrServiceProperty" : {
+      "@id" : "http://purl.org/goodrelations/v1#quantitativeProductOrServiceProperty",
+      "@type" : "@id"
+    },
+    "fatPer100g" : {
+      "@id" : "http://purl.org/foodontology#fatPer100g",
+      "@type" : "@id"
+    },
+    "energyPer100gAsDouble" : {
+      "@id" : "http://purl.org/foodontology#energyPer100gAsDouble",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "maker" : {
+      "@id" : "http://xmlns.com/foaf/0.1/maker"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "ingredientsListAsText" : {
+      "@id" : "http://purl.org/foodontology#ingredientsListAsText",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "Ingredient" : {
+      "@id" : "http://purl.org/foodontology#Ingredient"
+    },
+    "FoodAdditive" : {
+      "@id" : "http://purl.org/foodontology#FoodAdditive"
+    },
+    "proteinsPer100gAsDouble" : {
+      "@id" : "http://purl.org/foodontology#proteinsPer100gAsDouble",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "carbohydratesPer100g" : {
+      "@id" : "http://purl.org/foodontology#carbohydratesPer100g",
+      "@type" : "@id"
+    },
+    "datatypeProductOrServiceProperty" : {
+      "@id" : "http://purl.org/goodrelations/v1#datatypeProductOrServiceProperty",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator"
+    },
+    "energyPer100g" : {
+      "@id" : "http://purl.org/foodontology#energyPer100g",
+      "@type" : "@id"
+    },
+    "preferredNamespacePrefix" : {
+      "@id" : "http://purl.org/vocab/vann/preferredNamespacePrefix"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/elements/1.1/title"
+    },
+    "date" : {
+      "@id" : "http://purl.org/dc/elements/1.1/date"
+    },
+    "seeAlso" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
+    },
+    "carbohydratesPer100gAsDouble" : {
+      "@id" : "http://purl.org/foodontology#carbohydratesPer100gAsDouble",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "containsIngredient" : {
+      "@id" : "http://purl.org/foodontology#containsIngredient",
+      "@type" : "@id"
+    },
+    "proteinsPer100g" : {
+      "@id" : "http://purl.org/foodontology#proteinsPer100g",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "preferredNamespaceUri" : {
+      "@id" : "http://purl.org/vocab/vann/preferredNamespaceUri"
+    },
+    "containsGMO" : {
+      "@id" : "http://purl.org/foodontology#containsGMO",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    }
+  }
+}

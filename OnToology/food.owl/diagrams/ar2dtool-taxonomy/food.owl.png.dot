@@ -1,0 +1,27 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "gr:QuantitativeValueFloat" "gr:ProductOrService" "base:Ingredient" "base:FoodAdditive" "base:Food" "gr:QuantitativeValue" "gr:PaymentChargeSpecification" "gr:ProductOrServicesSomeInstancesPlaceholder" "gr:PriceSpecification" "http://schema.org/Product" "gr:BusinessFunction" "http://schema.org/Offer" "gr:PaymentMethod" "gr:License" "gr:DeliveryMethod" "gr:DeliveryModeParcelService" "gr:DeliveryChargeSpecification" "http://schema.org/Person" "gr:Individual" "gr:SomeItems" "http://schema.org/Organization" "gr:ProductOrServiceModel" "gr:UnitPriceSpecification" "gr:BusinessEntity" "gr:PaymentMethodCreditCard" "gr:Offering" "gr:ActualProductOrServiceInstance" "gr:QuantitativeValueInteger" ; /*classes style*/
+	"gr:ActualProductOrServiceInstance" -> "gr:ProductOrService" [ label = "rdfs:subClassOf" ];
+	"gr:License" -> "gr:BusinessFunction" [ label = "rdfs:subClassOf" ];
+	"http://schema.org/Person" -> "gr:BusinessEntity" [ label = "rdfs:subClassOf" ];
+	"gr:ProductOrServicesSomeInstancesPlaceholder" -> "gr:ProductOrService" [ label = "rdfs:subClassOf" ];
+	"base:FoodAdditive" -> "base:Ingredient" [ label = "rdfs:subClassOf" ];
+	"gr:PaymentMethodCreditCard" -> "gr:PaymentMethod" [ label = "rdfs:subClassOf" ];
+	"gr:PaymentChargeSpecification" -> "gr:PriceSpecification" [ label = "rdfs:subClassOf" ];
+	"http://schema.org/Offer" -> "gr:Offering" [ label = "rdfs:subClassOf" ];
+	"gr:QuantitativeValueInteger" -> "gr:QuantitativeValue" [ label = "rdfs:subClassOf" ];
+	"gr:QuantitativeValueFloat" -> "gr:QuantitativeValue" [ label = "rdfs:subClassOf" ];
+	"http://schema.org/Organization" -> "gr:BusinessEntity" [ label = "rdfs:subClassOf" ];
+	"gr:DeliveryChargeSpecification" -> "gr:PriceSpecification" [ label = "rdfs:subClassOf" ];
+	"base:Food" -> "gr:ProductOrService" [ label = "rdfs:subClassOf" ];
+	"gr:UnitPriceSpecification" -> "gr:PriceSpecification" [ label = "rdfs:subClassOf" ];
+	"gr:Individual" -> "http://schema.org/Product" [ label = "rdfs:subClassOf" ];
+	"gr:Individual" -> "gr:ProductOrService" [ label = "rdfs:subClassOf" ];
+	"gr:DeliveryModeParcelService" -> "gr:DeliveryMethod" [ label = "rdfs:subClassOf" ];
+	"gr:ProductOrServiceModel" -> "http://schema.org/Product" [ label = "rdfs:subClassOf" ];
+	"gr:ProductOrServiceModel" -> "gr:ProductOrService" [ label = "rdfs:subClassOf" ];
+	"gr:SomeItems" -> "http://schema.org/Product" [ label = "rdfs:subClassOf" ];
+	"gr:SomeItems" -> "gr:ProductOrService" [ label = "rdfs:subClassOf" ];
+
+}

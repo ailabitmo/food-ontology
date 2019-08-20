@@ -1,0 +1,213 @@
+@prefix : <http://purl.org/foodontology#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://purl.org/foodontology> .
+
+<http://purl.org/foodontology> rdf:type owl:Ontology ;
+                                owl:versionIRI <http://purl.org/foodontology/0.0.9> ;
+                                owl:imports <http://purl.org/goodrelations/v1> ;
+                                <http://purl.org/dc/elements/1.1/creator> "Alexander Chistyakov, ITMO University" ,
+                                                                          "Maxim Kolchin, ITMO University" ,
+                                                                          "Maxim Lapaev, ITMO University" ,
+                                                                          "Olga Parkhimovich, ITMO University" ,
+                                                                          "Rezeda Khaidarova, ITMO University" ;
+                                <http://purl.org/dc/elements/1.1/description> "Food Ontology is an ontology created for food and food products particularly which is being developed for MneMojno project to structure its knowledge base of food products and to interlink with other datasets (such as DBPedia) in future. The motivation for building a new ontology is the lack of reusable, non-toy ontology for food product domain. The ontology extends the most powerful ontology for describing all of the details of products and services GoodsRelations ontology, here in after referred to as the core ontology. Below, we give an overview of the relevant conceptual entities and types of relationships that extend the core ontology for food product domain." ;
+                                <http://purl.org/dc/elements/1.1/title> "The FoodOntology Vocabulary for Food Products Description"@en ;
+                                <http://purl.org/vocab/vann/preferredNamespacePrefix> "food" ;
+                                <http://purl.org/vocab/vann/preferredNamespaceUri> "http://purl.org/foodontology#"^^xsd:anyURI ;
+                                rdfs:comment "The Food Ontology is an extension of GoodsRelations Ontology [GoodsRelations] created to represent food and food products. Food Ontology describes food products and provides information on ingredients, additives, nutrition facts and other food-specific facts." ;
+                                rdfs:label "Food Ontology"@en ,
+                                           "Онтология еды и продуктов питания"@ru ;
+                                owl:versionInfo "0.0.9" ;
+                                <http://xmlns.com/foaf/0.1/maker> "http://twitter.com/Kolchinmax"^^xsd:anyURI .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://purl.org/dc/elements/1.1/description
+<http://purl.org/dc/elements/1.1/description> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/vocab/vann/preferredNamespacePrefix
+<http://purl.org/vocab/vann/preferredNamespacePrefix> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/vocab/vann/preferredNamespaceUri
+<http://purl.org/vocab/vann/preferredNamespaceUri> rdf:type owl:AnnotationProperty .
+
+
+###  http://xmlns.com/foaf/0.1/maker
+<http://xmlns.com/foaf/0.1/maker> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://purl.org/foodontology#carbohydratesPer100g
+:carbohydratesPer100g rdf:type owl:ObjectProperty ;
+                      rdfs:subPropertyOf <http://purl.org/goodrelations/v1#quantitativeProductOrServiceProperty> ;
+                      rdfs:domain :Food ;
+                      rdfs:range <http://purl.org/goodrelations/v1#QuantitativeValueFloat> .
+
+
+###  http://purl.org/foodontology#containsIngredient
+:containsIngredient rdf:type owl:ObjectProperty ;
+                    rdfs:domain :Food ;
+                    rdfs:range :Ingredient ;
+                    rdfs:comment "contains ingredient"@en ,
+                                 "содержит ингредиент"@ru .
+
+
+###  http://purl.org/foodontology#energyPer100g
+:energyPer100g rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf <http://purl.org/goodrelations/v1#quantitativeProductOrServiceProperty> ;
+               rdfs:domain :Food ;
+               rdfs:range <http://purl.org/goodrelations/v1#QuantitativeValueFloat> .
+
+
+###  http://purl.org/foodontology#fatPer100g
+:fatPer100g rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf <http://purl.org/goodrelations/v1#quantitativeProductOrServiceProperty> ;
+            rdfs:domain :Food ;
+            rdfs:range <http://purl.org/goodrelations/v1#QuantitativeValueFloat> .
+
+
+###  http://purl.org/foodontology#proteinsPer100g
+:proteinsPer100g rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf <http://purl.org/goodrelations/v1#quantitativeProductOrServiceProperty> ;
+                 rdfs:domain :Food ;
+                 rdfs:range <http://purl.org/goodrelations/v1#QuantitativeValueFloat> .
+
+
+###  http://purl.org/goodrelations/v1#quantitativeProductOrServiceProperty
+<http://purl.org/goodrelations/v1#quantitativeProductOrServiceProperty> rdf:type owl:ObjectProperty .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://purl.org/foodontology#carbohydratesPer100gAsDouble
+:carbohydratesPer100gAsDouble rdf:type owl:DatatypeProperty ;
+                              rdfs:subPropertyOf <http://purl.org/goodrelations/v1#datatypeProductOrServiceProperty> ;
+                              rdfs:domain :Food ;
+                              rdfs:range xsd:double ;
+                              rdfs:label "carbohydrates per 100 g"@en ,
+                                         "углеводов в 100 г"@ru ;
+                              rdfs:seeAlso :carbohydratesPer100g .
+
+
+###  http://purl.org/foodontology#containsGMO
+:containsGMO rdf:type owl:DatatypeProperty ;
+             rdfs:subPropertyOf <http://purl.org/goodrelations/v1#datatypeProductOrServiceProperty> ;
+             rdf:type owl:FunctionalProperty ;
+             rdfs:domain :Food ;
+             rdfs:range xsd:boolean ;
+             rdfs:label "contains a GMO"@en ,
+                        "содержит ГМО"@ru ;
+             rdfs:seeAlso "http://en.wikipedia.org/wiki/Genetically_modified_organism"^^xsd:anyURI .
+
+
+###  http://purl.org/foodontology#energyPer100gAsDouble
+:energyPer100gAsDouble rdf:type owl:DatatypeProperty ;
+                       rdfs:subPropertyOf <http://purl.org/goodrelations/v1#datatypeProductOrServiceProperty> ;
+                       rdfs:domain :Food ;
+                       rdfs:range xsd:double ;
+                       rdfs:label "energy per 100 g"@en ,
+                                  "энергетическая ценность в 100 г"@ru ;
+                       rdfs:seeAlso :energyPer100g .
+
+
+###  http://purl.org/foodontology#fatPer100gAsDouble
+:fatPer100gAsDouble rdf:type owl:DatatypeProperty ;
+                    rdfs:subPropertyOf <http://purl.org/goodrelations/v1#datatypeProductOrServiceProperty> ;
+                    rdfs:domain :Food ;
+                    rdfs:range xsd:double ;
+                    rdfs:label "fat per 100 g"@en ,
+                               "жира в 100 г"@ru ;
+                    rdfs:seeAlso :fatPer100g .
+
+
+###  http://purl.org/foodontology#ingredientsListAsText
+:ingredientsListAsText rdf:type owl:DatatypeProperty ;
+                       rdfs:domain :Food ;
+                       rdfs:range rdfs:Literal .
+
+
+###  http://purl.org/foodontology#proteinsPer100gAsDouble
+:proteinsPer100gAsDouble rdf:type owl:DatatypeProperty ;
+                         rdfs:subPropertyOf <http://purl.org/goodrelations/v1#datatypeProductOrServiceProperty> ;
+                         rdfs:domain :Food ;
+                         rdfs:range xsd:double ;
+                         rdfs:label "proteins per 100 g"@en ,
+                                    "белков в 100 г"@ru ;
+                         rdfs:seeAlso :proteinsPer100g .
+
+
+###  http://purl.org/goodrelations/v1#datatypeProductOrServiceProperty
+<http://purl.org/goodrelations/v1#datatypeProductOrServiceProperty> rdf:type owl:DatatypeProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://purl.org/foodontology#Food
+:Food rdf:type owl:Class ;
+      rdfs:subClassOf <http://purl.org/goodrelations/v1#ProductOrService> ;
+      rdfs:label "Food"@en ,
+                 "Продукт пищевой"@ru ;
+      rdfs:seeAlso "http://en.wikipedia.org/wiki/Food"^^xsd:anyURI .
+
+
+###  http://purl.org/foodontology#FoodAdditive
+:FoodAdditive rdf:type owl:Class ;
+              rdfs:subClassOf :Ingredient ;
+              rdfs:label "Food additive"@en ,
+                         "Пищевая добавка"@ru ;
+              rdfs:seeAlso "http://en.wikipedia.org/wiki/Food_additive"^^xsd:anyURI .
+
+
+###  http://purl.org/foodontology#Ingredient
+:Ingredient rdf:type owl:Class ;
+            rdfs:label "Ingredient"@en ,
+                       "Ингредиент"@ru ;
+            rdfs:seeAlso "http://en.wikipedia.org/wiki/Ingredient"^^xsd:anyURI .
+
+
+###  http://purl.org/goodrelations/v1#ProductOrService
+<http://purl.org/goodrelations/v1#ProductOrService> rdf:type owl:Class .
+
+
+###  http://purl.org/goodrelations/v1#QuantitativeValueFloat
+<http://purl.org/goodrelations/v1#QuantitativeValueFloat> rdf:type owl:Class .
+
+
+#################################################################
+#    General axioms
+#################################################################
+
+[ rdf:type owl:AllDisjointProperties ;
+  owl:members ( :carbohydratesPer100g
+                :energyPer100g
+                :fatPer100g
+                :proteinsPer100g
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointProperties ;
+  owl:members ( :carbohydratesPer100gAsDouble
+                :energyPer100gAsDouble
+                :fatPer100gAsDouble
+                :proteinsPer100gAsDouble
+              )
+] .
+
+
+###  Generated by the OWL API (version 5.1.9) https://github.com/owlcs/owlapi/
